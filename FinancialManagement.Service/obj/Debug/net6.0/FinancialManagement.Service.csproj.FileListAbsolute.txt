@@ -1,0 +1,15 @@
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Service\bin\Debug\net6.0\FinancialManagement.Service.deps.json
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Service\bin\Debug\net6.0\FinancialManagement.Service.dll
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Service\bin\Debug\net6.0\FinancialManagement.Service.pdb
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Service\obj\Debug\net6.0\FinancialManagement.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Service\obj\Debug\net6.0\FinancialManagement.Service.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Service\obj\Debug\net6.0\FinancialManagement.Service.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Service\obj\Debug\net6.0\FinancialManagement.Service.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Service\obj\Debug\net6.0\FinancialManagement.Service.dll
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Service\obj\Debug\net6.0\refint\FinancialManagement.Service.dll
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Service\obj\Debug\net6.0\FinancialManagement.Service.pdb
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Service\obj\Debug\net6.0\ref\FinancialManagement.Service.dll
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Service\bin\Debug\net6.0\FinancialManagement.Core.dll
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Service\bin\Debug\net6.0\FinancialManagement.Core.pdb
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Service\obj\Debug\net6.0\FinancialManagement.Service.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Service\obj\Debug\net6.0\FinancialManagement.Service.csproj.CopyComplete

@@ -1,0 +1,17 @@
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\bin\Debug\net6.0\FinancialManagement.Data.deps.json
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\bin\Debug\net6.0\FinancialManagement.Data.runtimeconfig.json
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\bin\Debug\net6.0\FinancialManagement.Data.dll
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\bin\Debug\net6.0\FinancialManagement.Data.pdb
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\bin\Debug\net6.0\FinancialManagement.Core.dll
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\bin\Debug\net6.0\FinancialManagement.Core.pdb
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\obj\Debug\net6.0\FinancialManagement.Data.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\obj\Debug\net6.0\FinancialManagement.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\obj\Debug\net6.0\FinancialManagement.Data.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\obj\Debug\net6.0\FinancialManagement.Data.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\obj\Debug\net6.0\FinancialManagement.Data.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\obj\Debug\net6.0\FinancialManagement.Data.csproj.CopyComplete
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\obj\Debug\net6.0\FinancialManagement.Data.dll
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\obj\Debug\net6.0\refint\FinancialManagement.Data.dll
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\obj\Debug\net6.0\FinancialManagement.Data.pdb
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\obj\Debug\net6.0\FinancialManagement.Data.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\obj\Debug\net6.0\ref\FinancialManagement.Data.dll

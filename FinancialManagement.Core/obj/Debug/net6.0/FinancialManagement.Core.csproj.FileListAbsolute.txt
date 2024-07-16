@@ -1,0 +1,12 @@
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Core\bin\Debug\net6.0\FinancialManagement.Core.deps.json
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Core\bin\Debug\net6.0\FinancialManagement.Core.dll
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Core\bin\Debug\net6.0\FinancialManagement.Core.pdb
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Core\obj\Debug\net6.0\FinancialManagement.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Core\obj\Debug\net6.0\FinancialManagement.Core.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Core\obj\Debug\net6.0\FinancialManagement.Core.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Core\obj\Debug\net6.0\FinancialManagement.Core.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Core\obj\Debug\net6.0\FinancialManagement.Core.dll
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Core\obj\Debug\net6.0\refint\FinancialManagement.Core.dll
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Core\obj\Debug\net6.0\FinancialManagement.Core.pdb
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Core\obj\Debug\net6.0\ref\FinancialManagement.Core.dll
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Core\obj\Debug\net6.0\FinancialManagement.Core.csproj.AssemblyReference.cache
