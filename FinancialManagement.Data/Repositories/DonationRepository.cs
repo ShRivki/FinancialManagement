@@ -9,38 +9,38 @@ using Microsoft.EntityFrameworkCore;
 
 namespace FinancialManagement.Data.Repositories
 {
-    public class ContributionRepository : IContributionRepository
+    public class DonationRepository : IDonationRepository
     {
         private readonly DataContext _context;
 
-        public ContributionRepository(DataContext DC)
+        public DonationRepository(DataContext DC)
         {
             _context = DC;
         }
       
 
-        public async Task<IEnumerable<Contribution>> GetAsync()
+        public async Task<IEnumerable<Donation>> GetAsync()
         {
-            return await _context.Contributions.Include(d => d.Donor).ToListAsync();
+            return await _context.Donations.Include(d => d.Donor).ToListAsync();
             //return await _context.Contributions.ToListAsync();
         }
 
-        public async Task<Contribution> GetAsync(int id)
+        public async Task<Donation> GetAsync(int id)
         {
-            return await _context.Contributions.Include(d => d.Donor).FirstOrDefaultAsync(e => e.Id == id);
+            return await _context.Donations.Include(d => d.Donor).FirstOrDefaultAsync(e => e.Id == id);
             //return await _context.Contributions.FindAsync(id);
         }
 
-        public async Task<Contribution> PostAsync(Contribution value)
+        public async Task<Donation> PostAsync(Donation value)
         {
-            _context.Contributions.Add(value);
+            _context.Donations.Add(value);
             await _context.SaveChangesAsync();
-            return await _context.Contributions.FindAsync(value.Id);
+            return await _context.Donations.FindAsync(value.Id);
         }
 
-        public async Task<Contribution> PutAsync(int id, Contribution value)
+        public async Task<Donation> PutAsync(int id, Donation value)
         {
-            Contribution contribution = await _context.Contributions.FindAsync(id);
+            Donation contribution = await _context.Donations.FindAsync(id);
             if (contribution != null)
             {
                 contribution.Amount = value.Amount;
@@ -52,12 +52,12 @@ namespace FinancialManagement.Data.Repositories
             }
             return contribution;
         }
-        public async Task<Contribution> DeleteAsync(int id)
+        public async Task<Donation> DeleteAsync(int id)
         {
-            Contribution contribution = await _context.Contributions.FindAsync(id);
+            Donation contribution = await _context.Donations.FindAsync(id);
             if (contribution != null)
             {
-                _context.Contributions.Remove(contribution);
+                _context.Donations.Remove(contribution);
                 await _context.SaveChangesAsync();
             }
             return contribution;

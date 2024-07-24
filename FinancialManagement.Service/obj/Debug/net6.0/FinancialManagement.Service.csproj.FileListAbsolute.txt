@@ -13,3 +13,4 @@ C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Service\bi
 C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Service\bin\Debug\net6.0\FinancialManagement.Core.pdb
 C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Service\obj\Debug\net6.0\FinancialManagement.Service.csproj.AssemblyReference.cache
 C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Service\obj\Debug\net6.0\FinancialManagement.Service.csproj.CopyComplete
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Service\obj\Debug\net6.0\FinancialManagement.Service.sourcelink.json

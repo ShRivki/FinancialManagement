@@ -15,3 +15,4 @@ C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\obj\D
 C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\obj\Debug\net6.0\FinancialManagement.Data.pdb
 C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\obj\Debug\net6.0\FinancialManagement.Data.genruntimeconfig.cache
 C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\obj\Debug\net6.0\ref\FinancialManagement.Data.dll
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\obj\Debug\net6.0\FinancialManagement.Data.sourcelink.json

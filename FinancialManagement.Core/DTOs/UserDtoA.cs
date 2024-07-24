@@ -9,12 +9,13 @@ namespace FinancialManagement.Core.DTOs
 {
     public class UserDtoA
     {
-       
-        public string UserName { get; set; }
         public string Identity { get; set; }
-        public string UserEmail { get; set; }
-        public string UserPhone { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
         public string Address { get; set; }
+        public string Phone { get; set; }
+        public string Phone2 { get; set; }
+        public string Email { get; set; }
        
     }
 }

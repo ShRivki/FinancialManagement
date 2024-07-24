@@ -9,18 +9,18 @@ namespace FinancialManagement.Core.Services
 {
     public interface IContributionService
     {
-        public Task<IEnumerable<Contribution>> GetAllAsync();
+        public Task<IEnumerable<Donation>> GetAllAsync();
 
 
-        public Task<Contribution> GetContributionByIdAsync(int id);
+        public Task<Donation> GetContributionByIdAsync(int id);
 
 
-        public Task<Contribution> PostContributionAsync(Contribution value);
+        public Task<Donation> PostContributionAsync(Donation value);
 
 
-        public Task<Contribution> PutContributionAsync(int id, Contribution value);
+        public Task<Donation> PutContributionAsync(int id, Donation value);
 
 
-        public Task<Contribution> DeleteContributionAsync(int id);
+        public Task<Donation> DeleteContributionAsync(int id);
     }
 }

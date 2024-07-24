@@ -28,14 +28,14 @@ namespace FinancialManagement.Data.Repositories
             //        .Include(l => l.Borrower)           // כולל את המשתמש המשויך להלוואה
             //        .ToListAsync();
             //  var list = await _context.Users.ToListAsync();
-            var list = await _context.Users.Include(x => x.Guarantees).Include(x => x.Contributions).Include(x => x.Deposits).Include(u => u.Loans)          // כולל את כל הערביות השייכות להלוואה
+            var list = await _context.Users.Include(x => x.Guarantees).Include(x => x.Donations).Include(x => x.Deposits).Include(u => u.Loans)          // כולל את כל הערביות השייכות להלוואה
                         .ThenInclude(e => e.Guarantees).ThenInclude(p => p.Guarantor).ToListAsync();
             return list;
         }
 
         public async Task<User> GetAsync(int id)
         {
-            return await _context.Users.Include(x => x.Guarantees).Include(x => x.Contributions).Include(x => x.Deposits).Include(x => x.Loans).ThenInclude(e => e.Guarantees).ThenInclude(p => p.Guarantor).FirstOrDefaultAsync(e => e.Id == id);
+            return await _context.Users.Include(x => x.Guarantees).Include(x => x.Donations).Include(x => x.Deposits).Include(x => x.Loans).ThenInclude(e => e.Guarantees).ThenInclude(p => p.Guarantor).FirstOrDefaultAsync(e => e.Id == id);
             //  return await _context.Users.FindAsync(id);
         }
 
@@ -51,11 +51,14 @@ namespace FinancialManagement.Data.Repositories
             User user = await _context.Users.FindAsync(id);
             if (user != null)
             {
-                user.UserEmail = value.UserEmail;
-                user.UserName = value.UserName;
-                user.UserPhone = value.UserPhone;
+                user.Email = value.Email;
+             
+                user.FirstName = value.FirstName;
+                user.LastName = value.LastName;
+                user.Phone = value.Phone;
+                user.Phone2 = value.Phone2;
                 user.Loans= value.Loans;
-                user.Contributions= value.Contributions;
+                user.Donations = value.Donations;
                 user.Deposits= value.Deposits;
                 user.Guarantees= value.Guarantees;
                 await _context.SaveChangesAsync();

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FinancialManagement.Core.Entities
 {
-    public class Contribution
+    public class Donation
     {
        
         public int Id { get; set; }

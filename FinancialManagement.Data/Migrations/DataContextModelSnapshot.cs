@@ -22,31 +22,6 @@ namespace FinancialManagement.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("FinancialManagement.Core.Entities.Contribution", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<double>("Amount")
-                        .HasColumnType("float");
-
-                    b.Property<int>("DonorId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Notes")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("DonorId");
-
-                    b.ToTable("Contributions");
-                });
-
             modelBuilder.Entity("FinancialManagement.Core.Entities.Deposit", b =>
                 {
                     b.Property<int>("Id")
@@ -79,6 +54,31 @@ namespace FinancialManagement.Data.Migrations
                     b.HasIndex("DepositorId");
 
                     b.ToTable("Deposits");
+                });
+
+            modelBuilder.Entity("FinancialManagement.Core.Entities.Donation", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<double>("Amount")
+                        .HasColumnType("float");
+
+                    b.Property<int>("DonorId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Notes")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DonorId");
+
+                    b.ToTable("Donations");
                 });
 
             modelBuilder.Entity("FinancialManagement.Core.Entities.Guarantee", b =>
@@ -152,36 +152,32 @@ namespace FinancialManagement.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Identity")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("UserEmail")
+                    b.Property<string>("LastName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("UserName")
+                    b.Property<string>("Phone")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("UserPhone")
-                        .IsRequired()
+                    b.Property<string>("Phone2")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
                     b.ToTable("Users");
-                });
-
-            modelBuilder.Entity("FinancialManagement.Core.Entities.Contribution", b =>
-                {
-                    b.HasOne("FinancialManagement.Core.Entities.User", "Donor")
-                        .WithMany("Contributions")
-                        .HasForeignKey("DonorId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Donor");
                 });
 
             modelBuilder.Entity("FinancialManagement.Core.Entities.Deposit", b =>
@@ -193,6 +189,17 @@ namespace FinancialManagement.Data.Migrations
                         .IsRequired();
 
                     b.Navigation("Depositor");
+                });
+
+            modelBuilder.Entity("FinancialManagement.Core.Entities.Donation", b =>
+                {
+                    b.HasOne("FinancialManagement.Core.Entities.User", "Donor")
+                        .WithMany("Donations")
+                        .HasForeignKey("DonorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Donor");
                 });
 
             modelBuilder.Entity("FinancialManagement.Core.Entities.Guarantee", b =>
@@ -232,9 +239,9 @@ namespace FinancialManagement.Data.Migrations
 
             modelBuilder.Entity("FinancialManagement.Core.Entities.User", b =>
                 {
-                    b.Navigation("Contributions");
-
                     b.Navigation("Deposits");
+
+                    b.Navigation("Donations");
 
                     b.Navigation("Guarantees");
 

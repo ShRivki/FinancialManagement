@@ -10,3 +10,4 @@ C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Core\obj\D
 C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Core\obj\Debug\net6.0\FinancialManagement.Core.pdb
 C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Core\obj\Debug\net6.0\ref\FinancialManagement.Core.dll
 C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Core\obj\Debug\net6.0\FinancialManagement.Core.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Core\obj\Debug\net6.0\FinancialManagement.Core.sourcelink.json

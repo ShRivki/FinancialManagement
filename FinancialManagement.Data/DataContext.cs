@@ -5,7 +5,7 @@ namespace FinancialManagement.Data
 {
     public class DataContext : DbContext
     {
-        public DbSet<Contribution> Contributions { get; set; }
+        public DbSet<Donation> Donations { get; set; }
         public DbSet<Deposit> Deposits { get; set; }
         public DbSet<Guarantee> Guarantees { get; set; }
         public DbSet<Loan> Loans { get; set; }

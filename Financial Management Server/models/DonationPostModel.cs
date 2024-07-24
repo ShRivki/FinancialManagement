@@ -1,9 +1,9 @@
 ﻿using FinancialManagement.Core.Entities;
-using Solid.API.models;
 
-namespace FinancialManagement.models
+
+namespace  FinancialManagement.API.models
 {
-    public class ContributionPostModel
+    public class DonationPostModel
     {
         public int DonorId { get; set; }
 

@@ -26,9 +26,9 @@ namespace FinancialManagement.Core.Entities
             Guarantees = new List<Guarantee>();
         }
         public int Frequency { get; set; }
-        public int TotalPayments { get; set; }
-        public int CurrentPayment { get; set; }
-        public bool Status { get; set; }
+        public int TotalPayments { get; set; } = 1;
+        public int CurrentPayment { get; set; } = 0;
+        public bool Status { get; set; } = true;
 
     }
 }

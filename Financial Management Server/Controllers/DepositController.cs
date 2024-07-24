@@ -1,8 +1,9 @@
 ﻿using AutoMapper;
+using FinancialManagement.API.models;
 using FinancialManagement.Core.DTOs;
 using FinancialManagement.Core.Entities;
 using FinancialManagement.Core.Services;
-using FinancialManagement.models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -11,6 +12,7 @@ namespace FinancialManagement.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class DepositController : ControllerBase
     {
         private readonly IDepositService _DepositService;

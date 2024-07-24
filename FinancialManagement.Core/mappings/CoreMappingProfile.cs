@@ -22,7 +22,7 @@ namespace Solid.Core.mappings
             CreateMap<UserDtoB, User>().ReverseMap();
             CreateMap<UserDtoA, User>().ReverseMap();
             CreateMap<DepositDto, Deposit>().ReverseMap();
-            CreateMap<ContributionDto, Contribution>().ReverseMap();
+            CreateMap<DonationDto, Donation>().ReverseMap();
 
         }
     }

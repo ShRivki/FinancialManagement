@@ -7,7 +7,7 @@ using FinancialManagement.Core.Entities;
 
 namespace FinancialManagement.Core.DTOs
 {
-    public class ContributionDto
+    public class DonationDto
     {
         public UserDtoA Donor { get; set; }
 
