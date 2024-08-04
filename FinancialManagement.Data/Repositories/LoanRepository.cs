@@ -53,16 +53,26 @@ namespace FinancialManagement.Data.Repositories
                 loan.Status= value.Status;
                 loan.LoanDate = value.LoanDate;
                 loan.Borrower= value.Borrower;
+                loan.BorrowerId= value.BorrowerId;
+                loan.CurrentPayment= value.CurrentPayment;
+                loan.Guarantees= value.Guarantees;
+                loan.RepaymentDate= value.RepaymentDate;
+                loan.TotalPayments= value.TotalPayments;
                 await _context.SaveChangesAsync();
             }
-            return loan;
-        }
-        public async Task<Loan> DeleteAsync(int id)
+            return  await _context.Loans.Include(e => e.Guarantees).ThenInclude(p => p.Guarantor).FirstOrDefaultAsync(e => e.Id == id);
+          
+ 
+
+    }
+    public async Task<Loan> DeleteAsync(int id)
         {
             Loan loan = await _context.Loans.FindAsync(id);
             if (loan != null)
             {
-                loan.Status =false;
+                loan.CurrentPayment++;
+                if (loan.CurrentPayment==loan.TotalPayments)
+                     loan.Status =false;
                 
                 await _context.SaveChangesAsync();
             }

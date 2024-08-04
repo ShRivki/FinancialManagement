@@ -63,7 +63,8 @@ namespace FinancialManagement.Controllers
         public async Task<ActionResult> Delete(int id)
         {
             var res = await _DepositService.DeleteDepositAsync(id);
-            return res != null ? Ok(res) : NotFound(res);
+            var resDto = _mapper.Map<DepositDto>(res);
+            return res != null ? Ok(resDto) : NotFound(resDto);
         }
     }
 }

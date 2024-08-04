@@ -14,6 +14,7 @@ namespace FinancialManagement.Core.Entities
         public int BorrowerId { get; set; }
         public User Borrower { get; set; }
         public DateTime LoanDate { get; set; }
+        public DateTime RepaymentDate { get; set; }
         public double Amount { get; set; }
 
         //public int GuaranteeAId { get; set; }

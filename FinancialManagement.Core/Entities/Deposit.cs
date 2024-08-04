@@ -16,6 +16,6 @@ namespace FinancialManagement.Core.Entities
         public DateTime DepositDate { get; set; }
         public DateTime DateOfMaturity { get; set; }
         public string Notes { get; set; }
-        public bool Status { get; set; }
+        public bool Status { get; set; } = true;
     }
 }

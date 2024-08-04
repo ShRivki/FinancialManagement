@@ -35,7 +35,7 @@ namespace FinancialManagement.Data.Repositories
         {
             _context.Donations.Add(value);
             await _context.SaveChangesAsync();
-            return await _context.Donations.FindAsync(value.Id);
+            return await _context.Donations.Include(d => d.Donor).FirstOrDefaultAsync(d => d.Id == value.Id);
         }
 
         public async Task<Donation> PutAsync(int id, Donation value)

@@ -62,10 +62,12 @@ namespace FinancialManagement.Controllers
 
         // PUT api/<LoanController>/5
         [HttpPut("{id}")]
-        public async Task<ActionResult> Put(int id, [FromBody] Loan value)
+        public async Task<ActionResult> Put(int id, [FromBody] LoanPostModel value)
         {
-            var res = await _LoanService.PutLoanAsync(id, value);
-            return res != null ? Ok(res) : NotFound(res);
+            var loan = _mapper.Map<Loan>(value);
+            var res = await _LoanService.PutLoanAsync(id, loan);
+            var resDto = _mapper.Map<LoanDto>(res);
+            return res != null ? Ok(resDto) : NotFound(resDto);
 
         }
 
@@ -74,7 +76,8 @@ namespace FinancialManagement.Controllers
         public async Task<ActionResult> Delete(int id)
         {
             var res = await _LoanService.DeleteLoanAsync(id);
-            return res != null ? Ok(res) : NotFound(res);
+            var resDto = _mapper.Map<LoanDto>(res);
+            return res != null ? Ok(resDto) : NotFound(resDto);
         }
     }
 }

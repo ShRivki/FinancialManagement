@@ -35,7 +35,7 @@ namespace FinancialManagement.Data.Repositories
         {
             _context.Deposits.Add(value);
             await _context.SaveChangesAsync();
-            return await _context.Deposits.FindAsync(value.Id);
+            return await _context.Deposits.Include(d => d.Depositor).FirstOrDefaultAsync(d => d.Id == value.Id);
         }
 
         public async Task<Deposit> PutAsync(int id, Deposit value)

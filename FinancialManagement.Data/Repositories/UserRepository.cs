@@ -57,10 +57,10 @@ namespace FinancialManagement.Data.Repositories
                 user.LastName = value.LastName;
                 user.Phone = value.Phone;
                 user.Phone2 = value.Phone2;
-                user.Loans= value.Loans;
-                user.Donations = value.Donations;
-                user.Deposits= value.Deposits;
-                user.Guarantees= value.Guarantees;
+                //user.Loans= value.Loans;
+                //user.Donations = value.Donations;
+                //user.Deposits= value.Deposits;
+                //user.Guarantees= value.Guarantees;
                 await _context.SaveChangesAsync();
             }
             return user;

@@ -7,6 +7,7 @@ namespace FinancialManagement.API.models
     {
         public int BorrowerId { get; set; }
         public double Amount { get; set; }
+        public DateTime RepaymentDate { get; set; }
         public List<GuaranteePostModel> Guarantees { get; set; }
         public int Frequency { get; set; }
         public int TotalPayments { get; set; }

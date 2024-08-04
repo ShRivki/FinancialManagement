@@ -9,6 +9,7 @@ namespace FinancialManagement.Core.DTOs
 {
     public class UserDtoA
     {
+        public int Id { get; set; }
         public string Identity { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }

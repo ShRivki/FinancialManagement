@@ -9,7 +9,8 @@ namespace FinancialManagement.Core.DTOs
 {
     public class UserDtoB
     {
-       // public string Identity { get; set; }
+        public int Id { get; set; }
+        public string Identity { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Address { get; set; }

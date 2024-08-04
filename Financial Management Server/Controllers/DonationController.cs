@@ -51,7 +51,8 @@ namespace FinancialManagement.Controllers
         {
             var contribution=_mapper.Map<Donation>(value); 
             var res = await _ContributionService.PostContributionAsync(contribution);
-            return res != null ? Ok(value) : NotFound(value);
+            var resDto = _mapper.Map<DonationDto>(res);
+            return res != null ? Ok(resDto) : NotFound(resDto);
 
         }
             // PUT api/<ContributionController>/5

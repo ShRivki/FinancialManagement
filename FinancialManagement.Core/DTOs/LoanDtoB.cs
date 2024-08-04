@@ -9,6 +9,7 @@ namespace FinancialManagement.Core.DTOs
     public class LoanDtoB
     {
         public DateTime LoanDate { get; set; }
+        public DateTime RepaymentDate { get; set; }
         public double Amount { get; set; }
         public List<GuaranteeDto> Guarantees { get; set; }
         public int Frequency { get; set; }

@@ -127,6 +127,9 @@ namespace FinancialManagement.Data.Migrations
                     b.Property<DateTime>("LoanDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<DateTime>("RepaymentDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<bool>("Status")
                         .HasColumnType("bit");
 

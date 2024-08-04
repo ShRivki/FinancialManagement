@@ -9,7 +9,7 @@ namespace FinancialManagement.Core.DTOs
 {
     public class DepositDto
     {
-       
+        public int Id { get; set; }
         public UserDtoA Depositor { get; set; }
         public double Amount { get; set; }
         public DateTime DepositDate { get; set; }
