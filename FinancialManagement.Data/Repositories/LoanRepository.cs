@@ -20,13 +20,8 @@ namespace FinancialManagement.Data.Repositories
         }
         public async Task<IEnumerable<Loan>> GetAsync()
         {
-            //return await _context.Loans.ToListAsync();
 
-            return await _context.Loans
-                    .Include(l => l.Guarantees)          // כולל את כל הערביות השייכות להלוואה
-                        .ThenInclude(g => g.Guarantor)  // כלל את המידע על הערב
-                    .Include(l => l.Borrower)           // כולל את המשתמש המשויך להלוואה
-                    .ToListAsync();
+            return await _context.Loans.Include(l => l.Guarantees).ThenInclude(g => g.Guarantor).Include(l => l.Borrower).ToListAsync();
         }
 
         public async Task<Loan> GetAsync(int id)
@@ -45,29 +40,66 @@ namespace FinancialManagement.Data.Repositories
 
         public async Task<Loan> PutAsync(int id, Loan value)
         {
+            // Load the loan including its guarantees and their guarantors
+            Loan loan = await _context.Loans
+                                      .Include(e => e.Guarantees)
+                                      .ThenInclude(p => p.Guarantor)
+                                      .FirstOrDefaultAsync(e => e.Id == id);
 
-            Loan loan = await _context.Loans.FindAsync(id);
             if (loan != null)
             {
+                // Update loan properties
                 loan.Frequency = value.Frequency;
-                loan.Status= value.Status;
+                loan.Status = value.Status;
                 loan.LoanDate = value.LoanDate;
-                loan.Borrower= value.Borrower;
-                loan.BorrowerId= value.BorrowerId;
-                loan.CurrentPayment= value.CurrentPayment;
-                loan.Guarantees= value.Guarantees;
-                loan.RepaymentDate= value.RepaymentDate;
-                loan.TotalPayments= value.TotalPayments;
+                loan.Borrower = value.Borrower;
+                loan.BorrowerId = value.BorrowerId;
+               // loan.CurrentPayment = value.CurrentPayment;
+                loan.RepaymentDate = value.RepaymentDate;
+                loan.TotalPayments = value.TotalPayments;
+                loan.Amount = value.Amount;
+
+                // Update guarantees
+                // Remove guarantees that are not in the new value
+                var guaranteesToRemove = loan.Guarantees
+                                              .Where(g => !value.Guarantees.Any(vg => vg.Id == g.Id))
+                                              .ToList();
+                foreach (var guarantee in guaranteesToRemove)
+                {
+                    loan.Guarantees.Remove(guarantee);
+                    _context.Guarantees.Remove(guarantee);
+                }
+
+                // Add or update guarantees
+                foreach (var newGuarantee in value.Guarantees)
+                {
+                    var existingGuarantee = loan.Guarantees.FirstOrDefault(g => g.Id == newGuarantee.Id);
+                    
+                        // Add new guarantee
+                        loan.Guarantees.Add(new Guarantee
+                        {
+                            GuarantorId = newGuarantee.GuarantorId,
+                            Guarantor = newGuarantee.Guarantor,
+                            LoanId = loan.Id
+                        });
+                    
+                }
+
                 await _context.SaveChangesAsync();
             }
-            return  await _context.Loans.Include(e => e.Guarantees).ThenInclude(p => p.Guarantor).FirstOrDefaultAsync(e => e.Id == id);
-          
- 
 
-    }
-    public async Task<Loan> DeleteAsync(int id)
+            return await _context.Loans
+                                 .Include(e => e.Guarantees)
+                                 .ThenInclude(p => p.Guarantor).Include(l => l.Borrower)
+                                 .FirstOrDefaultAsync(e => e.Id == id);
+        }
+
+        public async Task<Loan> DeleteAsync(int id)
         {
-            Loan loan = await _context.Loans.FindAsync(id);
+            Loan loan = await _context.Loans
+                                      .Include(e => e.Guarantees)
+                                      .ThenInclude(p => p.Guarantor).Include(l => l.Borrower)
+                                      .FirstOrDefaultAsync(e => e.Id == id);
             if (loan != null)
             {
                 loan.CurrentPayment++;
