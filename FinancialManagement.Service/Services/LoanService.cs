@@ -31,6 +31,7 @@ namespace FinancialManagement.Service.Services
 
         public async Task<Loan> PostLoanAsync(Loan value)
         {
+            value.RemainingAmount=value.Amount;
             return await _LoanRepository.PostAsync(value);
         }
 

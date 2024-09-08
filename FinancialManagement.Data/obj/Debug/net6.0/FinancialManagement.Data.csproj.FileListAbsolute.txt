@@ -9,10 +9,10 @@ C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\obj\D
 C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\obj\Debug\net6.0\FinancialManagement.Data.AssemblyInfoInputs.cache
 C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\obj\Debug\net6.0\FinancialManagement.Data.AssemblyInfo.cs
 C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\obj\Debug\net6.0\FinancialManagement.Data.csproj.CoreCompileInputs.cache
-C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\obj\Debug\net6.0\FinancialManagement.Data.csproj.CopyComplete
 C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\obj\Debug\net6.0\FinancialManagement.Data.dll
 C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\obj\Debug\net6.0\refint\FinancialManagement.Data.dll
 C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\obj\Debug\net6.0\FinancialManagement.Data.pdb
 C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\obj\Debug\net6.0\FinancialManagement.Data.genruntimeconfig.cache
 C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\obj\Debug\net6.0\ref\FinancialManagement.Data.dll
 C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\obj\Debug\net6.0\FinancialManagement.Data.sourcelink.json
+C:\Users\ASUS\Desktop\Financial Management Server\FinancialManagement.Data\obj\Debug\net6.0\Financia.812DB5C6.Up2Date

@@ -18,6 +18,7 @@ namespace FinancialManagement.Core.DTOs
         public int Frequency { get; set; }
         public int TotalPayments { get; set; }
         public int CurrentPayment { get; set; }
+        public double RemainingAmount { get; set; }
         public bool Status { get; set; }
     }
 }

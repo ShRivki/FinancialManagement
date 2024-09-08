@@ -32,7 +32,6 @@ C:\Users\ASUS\Desktop\Financial Management Server\Financial Management Server\ob
 C:\Users\ASUS\Desktop\Financial Management Server\Financial Management Server\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.FinancialManagement.API.props
 C:\Users\ASUS\Desktop\Financial Management Server\Financial Management Server\obj\Debug\net6.0\staticwebassets.pack.json
 C:\Users\ASUS\Desktop\Financial Management Server\Financial Management Server\obj\Debug\net6.0\scopedcss\bundle\FinancialManagement.API.styles.css
-C:\Users\ASUS\Desktop\Financial Management Server\Financial Management Server\obj\Debug\net6.0\FinancialManagement.API.csproj.CopyComplete
 C:\Users\ASUS\Desktop\Financial Management Server\Financial Management Server\obj\Debug\net6.0\FinancialManagement.API.dll
 C:\Users\ASUS\Desktop\Financial Management Server\Financial Management Server\obj\Debug\net6.0\refint\FinancialManagement.API.dll
 C:\Users\ASUS\Desktop\Financial Management Server\Financial Management Server\obj\Debug\net6.0\FinancialManagement.API.pdb
@@ -77,3 +76,4 @@ C:\Users\ASUS\Desktop\Financial Management Server\Financial Management Server\ob
 C:\Users\ASUS\Desktop\Financial Management Server\Financial Management Server\bin\Debug\net6.0\libman.json
 C:\Users\ASUS\Desktop\Financial Management Server\Financial Management Server\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\ASUS\Desktop\Financial Management Server\Financial Management Server\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\ASUS\Desktop\Financial Management Server\Financial Management Server\obj\Debug\net6.0\Financia.6B85CB6D.Up2Date

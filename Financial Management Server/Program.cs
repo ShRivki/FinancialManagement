@@ -33,6 +33,8 @@ builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IContributionService, DonationService>();
 builder.Services.AddScoped<IDonationRepository, DonationRepository>();
+builder.Services.AddScoped<IGlobalVariablesService, GlobalVariablesService>();
+builder.Services.AddScoped<IGlobalVariablesRepository, GlobalVariablesRepository>();
 builder.Services.AddScoped<IDepositService, DepositService>();
 builder.Services.AddScoped<IDepositRepository, DepositRepository>();
 builder.Services.AddScoped<IGuaranteeService, GuaranteeService>();

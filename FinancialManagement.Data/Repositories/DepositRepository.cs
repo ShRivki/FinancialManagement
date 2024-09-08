@@ -33,7 +33,11 @@ namespace FinancialManagement.Data.Repositories
 
         public async Task<Deposit> PostAsync(Deposit value)
         {
-            _context.Deposits.Add(value);
+            _context.Deposits.Add(value); var globalVariables = await _context.GlobalVariables.FirstOrDefaultAsync();
+            if (globalVariables != null)
+            {
+                globalVariables.TotalFundBalance += value.Amount;
+            }
             await _context.SaveChangesAsync();
             return await _context.Deposits.Include(d => d.Depositor).FirstOrDefaultAsync(d => d.Id == value.Id);
         }
@@ -56,7 +60,12 @@ namespace FinancialManagement.Data.Repositories
         }
         public async Task<Deposit> DeleteAsync(int id)
         {
-            Deposit deposit = await _context.Deposits.FindAsync(id);
+            Deposit deposit = await _context.Deposits.FindAsync(id); 
+            var globalVariables = await _context.GlobalVariables.FirstOrDefaultAsync();
+            if (globalVariables != null)
+            {
+                globalVariables.TotalFundBalance -= deposit.Amount;
+            }
             if (deposit != null)
             {
                 deposit.Status =false;

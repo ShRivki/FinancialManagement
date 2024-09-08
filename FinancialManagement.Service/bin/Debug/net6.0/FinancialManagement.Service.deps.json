@@ -62,7 +62,10 @@
           "AutoMapper": "13.0.1"
         },
         "runtime": {
-          "FinancialManagement.Core.dll": {}
+          "FinancialManagement.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

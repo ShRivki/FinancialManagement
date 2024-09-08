@@ -10,6 +10,7 @@ namespace FinancialManagement.Data
         public DbSet<Guarantee> Guarantees { get; set; }
         public DbSet<Loan> Loans { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<GlobalVariables> GlobalVariables { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

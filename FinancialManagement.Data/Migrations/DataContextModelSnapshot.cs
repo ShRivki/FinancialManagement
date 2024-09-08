@@ -81,6 +81,28 @@ namespace FinancialManagement.Data.Migrations
                     b.ToTable("Donations");
                 });
 
+            modelBuilder.Entity("FinancialManagement.Core.Entities.GlobalVariables", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<double>("ActiveLoans")
+                        .HasColumnType("float");
+
+                    b.Property<double>("TotalFundBalance")
+                        .HasColumnType("float");
+
+                    b.Property<double>("TotalLoansGranted")
+                        .HasColumnType("float");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("GlobalVariables");
+                });
+
             modelBuilder.Entity("FinancialManagement.Core.Entities.Guarantee", b =>
                 {
                     b.Property<int>("Id")
@@ -126,6 +148,9 @@ namespace FinancialManagement.Data.Migrations
 
                     b.Property<DateTime>("LoanDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<double>("RemainingAmount")
+                        .HasColumnType("float");
 
                     b.Property<DateTime>("RepaymentDate")
                         .HasColumnType("datetime2");

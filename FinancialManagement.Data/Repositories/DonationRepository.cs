@@ -34,6 +34,11 @@ namespace FinancialManagement.Data.Repositories
         public async Task<Donation> PostAsync(Donation value)
         {
             _context.Donations.Add(value);
+            var globalVariables = await _context.GlobalVariables.FirstOrDefaultAsync();
+            if (globalVariables != null)
+            {
+                globalVariables.TotalFundBalance += value.Amount;
+            }
             await _context.SaveChangesAsync();
             return await _context.Donations.Include(d => d.Donor).FirstOrDefaultAsync(d => d.Id == value.Id);
         }

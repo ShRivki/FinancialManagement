@@ -33,7 +33,15 @@ namespace FinancialManagement.Data.Repositories
 
         public async Task<Loan> PostAsync(Loan value)
         {
+            value.LoanDate = DateTime.Now;
             _context.Loans.Add(value);
+            var globalVariables = await _context.GlobalVariables.FirstOrDefaultAsync();
+            if (globalVariables != null)
+            {
+                globalVariables.TotalFundBalance -= value.Amount;
+                globalVariables.ActiveLoans += value.Amount;
+                globalVariables.TotalLoansGranted += value.Amount;
+            }
             await _context.SaveChangesAsync();
             return await _context.Loans.FindAsync(value.Id);
         }
@@ -99,12 +107,22 @@ namespace FinancialManagement.Data.Repositories
             Loan loan = await _context.Loans
                                       .Include(e => e.Guarantees)
                                       .ThenInclude(p => p.Guarantor).Include(l => l.Borrower)
+              
                                       .FirstOrDefaultAsync(e => e.Id == id);
             if (loan != null)
             {
                 loan.CurrentPayment++;
-                if (loan.CurrentPayment==loan.TotalPayments)
-                     loan.Status =false;
+                loan.RemainingAmount -= (loan.Amount / loan.TotalPayments);
+                if (loan.CurrentPayment == loan.TotalPayments)
+                { 
+                    loan.Status = false;
+                    var globalVariables = await _context.GlobalVariables.FirstOrDefaultAsync();
+                    if (globalVariables != null)
+                    {
+                        globalVariables.TotalFundBalance += loan.Amount;
+                        globalVariables.ActiveLoans -= loan.Amount;
+                    }
+                }
                 
                 await _context.SaveChangesAsync();
             }
