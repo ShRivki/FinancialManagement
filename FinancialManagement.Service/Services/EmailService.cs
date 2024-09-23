@@ -10,8 +10,8 @@ namespace FinancialManagement.Service.Services
     {
         public static async Task SendEmailAsync(string toEmail, string subject, string body)
         {
-            string fromEmail = "razkazvi@gmail.com";
-            string appPassword = "w d p x i u c o n i v t j u w c";
+            string fromEmail = "r@gmail.com";
+            string appPassword = "1";
 
             using (MailMessage mail = new MailMessage())
             {
