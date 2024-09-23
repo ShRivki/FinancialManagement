@@ -17,6 +17,7 @@ namespace FinancialManagement.Core.Repositories
 
         public Task<User> PutAsync(int id, User value);
 
+        public Task<User> PutReliabilityAsync(int id, bool reliability);
         public Task<User> DeleteAsync(int id);
     }
 }

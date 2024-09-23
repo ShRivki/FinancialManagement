@@ -19,7 +19,7 @@ namespace FinancialManagement.Core.Services
 
 
         public Task<User> PutUserAsync(int id, User value);
-
+        public Task<User> PutReliabilityAsync(int id, bool reliability);
 
         public Task<User> DeleteUserAsync(int id);
     }

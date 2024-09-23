@@ -17,17 +17,18 @@ namespace FinancialManagement.Core.Entities
         public string Phone { get; set; }
         public string? Phone2 { get; set; }
         public string Email { get; set; }
+        public bool IsReliable { get; set; } = true; // מציין אם המשתמש אמין
 
         public List<Loan> Loans { get; set; }//רשימת הלוואות 
         public List<Donation> Donations { get; set; }//רשימת תרומות
         public List<Deposit> Deposits { get; set; }//רשימת הפקדות
-        public List<Guarantee> Guarantees { get; set; }//רשימת ערבויות 
+        public List<UserGuarantee> Guarantees { get; set; }//רשימת ערבויות 
         public User()
         {
             Loans = new List<Loan>();
             Donations = new List<Donation>();
             Deposits = new List<Deposit>();
-            Guarantees= new List<Guarantee>();
+            Guarantees= new List<UserGuarantee>();
         }
     }
 

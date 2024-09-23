@@ -17,11 +17,14 @@ namespace Solid.Core.mappings
         {
             CreateMap<LoanDto, Loan>().ReverseMap();
             CreateMap<LoanDtoB, Loan>().ReverseMap();
-            CreateMap<GuaranteeDtoB, Guarantee>().ReverseMap();
-            CreateMap<GuaranteeDto, Guarantee>().ReverseMap();
+            CreateMap<GuaranteeDtoB, UserGuarantee>().ReverseMap();
+            CreateMap<GuaranteeDto, UserGuarantee>().ReverseMap();
+            CreateMap<DepositGuaranteeDtoA, DepositGuarantee>().ReverseMap();
+            CreateMap<DepositGuaranteeDtoB, DepositGuarantee>().ReverseMap();
             CreateMap<UserDtoB, User>().ReverseMap();
             CreateMap<UserDtoA, User>().ReverseMap();
             CreateMap<DepositDto, Deposit>().ReverseMap();
+            CreateMap<DepositDtoB, Deposit>().ReverseMap();
             CreateMap<DonationDto, Donation>().ReverseMap();
 
         }

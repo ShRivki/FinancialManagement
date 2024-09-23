@@ -17,6 +17,7 @@ namespace FinancialManagement.Core.DTOs
         public string Phone { get; set; }
         public string Phone2 { get; set; }
         public string Email { get; set; }
+        public bool IsReliable { get; set; }
         public List<LoanDto> Loans { get; set; }//רשימת הלוואות 
         public List<DepositDto> Deposits { get; set; }
         public List<DonationDto> Donations { get; set; }

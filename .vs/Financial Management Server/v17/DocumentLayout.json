@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.data\\repositories\\loanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|solutionrelative:financialmanagement.data\\repositories\\loanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|solutionrelative:financialmanagement.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\entities\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\entities\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.data\\repositories\\depositrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|solutionrelative:financialmanagement.data\\repositories\\depositrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,143 +11,100 @@
       "RelativeMoniker": "D:0:0:{8431D072-27C5-4919-BE25-86F759A6ED29}|FinancialManagement.Service\\FinancialManagement.Service.csproj|solutionrelative:financialmanagement.service\\services\\loanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|c:\\users\\asus\\desktop\\financial management server\\financial management server\\controllers\\loancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|solutionrelative:financial management server\\controllers\\loancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\dtos\\loandtob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\dtos\\loandtob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\dtos\\loandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\dtos\\loandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|c:\\users\\asus\\desktop\\financial management server\\financial management server\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|solutionrelative:financial management server\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.data\\repositories\\donationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|solutionrelative:financialmanagement.data\\repositories\\donationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8431D072-27C5-4919-BE25-86F759A6ED29}|FinancialManagement.Service\\FinancialManagement.Service.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.service\\services\\depositservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8431D072-27C5-4919-BE25-86F759A6ED29}|FinancialManagement.Service\\FinancialManagement.Service.csproj|solutionrelative:financialmanagement.service\\services\\depositservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8431D072-27C5-4919-BE25-86F759A6ED29}|FinancialManagement.Service\\FinancialManagement.Service.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.service\\services\\donationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8431D072-27C5-4919-BE25-86F759A6ED29}|FinancialManagement.Service\\FinancialManagement.Service.csproj|solutionrelative:financialmanagement.service\\services\\donationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\entities\\globalvariables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\entities\\globalvariables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.data\\repositories\\globalvariablesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|solutionrelative:financialmanagement.data\\repositories\\globalvariablesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\services\\iloanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\services\\iloanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|c:\\users\\asus\\desktop\\financial management server\\financial management server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|solutionrelative:financial management server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.data\\repositories\\guaranteerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|solutionrelative:financialmanagement.data\\repositories\\guaranteerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\entities\\guarantee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\entities\\guarantee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8431D072-27C5-4919-BE25-86F759A6ED29}|FinancialManagement.Service\\FinancialManagement.Service.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.service\\financialmanagement.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{8431D072-27C5-4919-BE25-86F759A6ED29}|FinancialManagement.Service\\FinancialManagement.Service.csproj|solutionrelative:financialmanagement.service\\financialmanagement.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8431D072-27C5-4919-BE25-86F759A6ED29}|FinancialManagement.Service\\FinancialManagement.Service.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.service\\services\\globalvariablesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8431D072-27C5-4919-BE25-86F759A6ED29}|FinancialManagement.Service\\FinancialManagement.Service.csproj|solutionrelative:financialmanagement.service\\services\\globalvariablesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|c:\\users\\asus\\desktop\\financial management server\\financial management server\\controllers\\globalvariablescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|solutionrelative:financial management server\\controllers\\globalvariablescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|c:\\users\\asus\\desktop\\financial management server\\financial management server\\controllers\\guaranteecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|solutionrelative:financial management server\\controllers\\guaranteecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\repositories\\iglobalvariablesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\repositories\\iglobalvariablesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\repositories\\iguaranteerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\repositories\\iguaranteerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\services\\icontributionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\services\\icontributionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\services\\idepositservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\services\\idepositservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\services\\iglobalvariablesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\services\\iglobalvariablesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\services\\iguaranteeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\services\\iguaranteeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\repositories\\idonationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\repositories\\idonationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|solutionrelative:financialmanagement.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|c:\\users\\asus\\desktop\\financial management server\\financial management server\\controllers\\donationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|solutionrelative:financial management server\\controllers\\donationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\entities\\currencytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\entities\\currencytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|c:\\users\\asus\\desktop\\financial management server\\financial management server\\controllers\\depositcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|solutionrelative:financial management server\\controllers\\depositcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\AppData\\Local\\SourceServer\\00dc5744b2be23bbc66aa8d22eb538f9623950eecef949f460a11c67286bf9a5\\FinancialManagement.Data\\Repositories\\LoanRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8431D072-27C5-4919-BE25-86F759A6ED29}|FinancialManagement.Service\\FinancialManagement.Service.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.service\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8431D072-27C5-4919-BE25-86F759A6ED29}|FinancialManagement.Service\\FinancialManagement.Service.csproj|solutionrelative:financialmanagement.service\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.data\\repositories\\donationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|solutionrelative:financialmanagement.data\\repositories\\donationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|solutionrelative:financialmanagement.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.data\\repositories\\loanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|solutionrelative:financialmanagement.data\\repositories\\loanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\entities\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\entities\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\entities\\userguarantee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\entities\\userguarantee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.data\\repositories\\globalvariablesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|solutionrelative:financialmanagement.data\\repositories\\globalvariablesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.data\\repositories\\guaranteerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|solutionrelative:financialmanagement.data\\repositories\\guaranteerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8431D072-27C5-4919-BE25-86F759A6ED29}|FinancialManagement.Service\\FinancialManagement.Service.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.service\\services\\globalvariablesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8431D072-27C5-4919-BE25-86F759A6ED29}|FinancialManagement.Service\\FinancialManagement.Service.csproj|solutionrelative:financialmanagement.service\\services\\globalvariablesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\dtos\\loandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\dtos\\loandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8431D072-27C5-4919-BE25-86F759A6ED29}|FinancialManagement.Service\\FinancialManagement.Service.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.service\\services\\reminderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8431D072-27C5-4919-BE25-86F759A6ED29}|FinancialManagement.Service\\FinancialManagement.Service.csproj|solutionrelative:financialmanagement.service\\services\\reminderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8431D072-27C5-4919-BE25-86F759A6ED29}|FinancialManagement.Service\\FinancialManagement.Service.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.service\\services\\guaranteeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8431D072-27C5-4919-BE25-86F759A6ED29}|FinancialManagement.Service\\FinancialManagement.Service.csproj|solutionrelative:financialmanagement.service\\services\\guaranteeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8431D072-27C5-4919-BE25-86F759A6ED29}|FinancialManagement.Service\\FinancialManagement.Service.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.service\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8431D072-27C5-4919-BE25-86F759A6ED29}|FinancialManagement.Service\\FinancialManagement.Service.csproj|solutionrelative:financialmanagement.service\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\entities\\paymentmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\entities\\paymentmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\dtos\\loandtob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\dtos\\loandtob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\dtos\\depositguaranteedtob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\dtos\\depositguaranteedtob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\dtos\\depositguaranteedtoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\dtos\\depositguaranteedtoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\dtos\\depositdtob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\dtos\\depositdtob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\dtos\\depositdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\dtos\\depositdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\dtos\\donationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\dtos\\donationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\dtos\\userdtoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\dtos\\userdtoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\dtos\\userdtob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\dtos\\userdtob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.data\\migrations\\20240801103849_add fild repaymentdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|solutionrelative:financialmanagement.data\\migrations\\20240801103849_add fild repaymentdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|c:\\users\\asus\\desktop\\financial management server\\financial management server\\models\\loanpostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|solutionrelative:financial management server\\models\\loanpostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|c:\\users\\asus\\desktop\\financial management server\\financial management server\\models\\donationpostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|solutionrelative:financial management server\\models\\donationpostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|c:\\users\\asus\\desktop\\financial management server\\financial management server\\models\\depositpostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|solutionrelative:financial management server\\models\\depositpostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\entities\\deposit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -170,12 +115,189 @@
       "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\entities\\donation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|c:\\users\\asus\\desktop\\financial management server\\financial management server\\models\\userpostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|solutionrelative:financial management server\\models\\userpostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\services\\iglobalvariablesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\services\\iglobalvariablesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FinancialManagement2/True/SqlTable/dbo.Loans.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FinancialManagement2/True/SqlTable/dbo.Deposits.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FinancialManagement2/True/SqlTable/dbo.Guarantees.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8431D072-27C5-4919-BE25-86F759A6ED29}|FinancialManagement.Service\\FinancialManagement.Service.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.service\\services\\currencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8431D072-27C5-4919-BE25-86F759A6ED29}|FinancialManagement.Service\\FinancialManagement.Service.csproj|solutionrelative:financialmanagement.service\\services\\currencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\services\\iguaranteeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\services\\iguaranteeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\services\\idepositservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\services\\idepositservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|c:\\users\\asus\\desktop\\financial management server\\financial management server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|solutionrelative:financial management server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\financialmanagement.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\financialmanagement.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8431D072-27C5-4919-BE25-86F759A6ED29}|FinancialManagement.Service\\FinancialManagement.Service.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.service\\services\\donationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8431D072-27C5-4919-BE25-86F759A6ED29}|FinancialManagement.Service\\FinancialManagement.Service.csproj|solutionrelative:financialmanagement.service\\services\\donationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\services\\icontributionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\services\\icontributionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\repositories\\iloanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\repositories\\iloanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|c:\\users\\asus\\desktop\\financial management server\\financial management server\\controllers\\globalvariablescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|solutionrelative:financial management server\\controllers\\globalvariablescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\entities\\depositguarantee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\entities\\depositguarantee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\repositories\\iglobalvariablesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\repositories\\iglobalvariablesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\repositories\\iguaranteerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\repositories\\iguaranteerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|solutionrelative:financialmanagement.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8431D072-27C5-4919-BE25-86F759A6ED29}|FinancialManagement.Service\\FinancialManagement.Service.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.service\\financialmanagement.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8431D072-27C5-4919-BE25-86F759A6ED29}|FinancialManagement.Service\\FinancialManagement.Service.csproj|solutionrelative:financialmanagement.service\\financialmanagement.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\entities\\globalvariables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\entities\\globalvariables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\mappings\\coremappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\mappings\\coremappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\dtos\\userdtob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\dtos\\userdtob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\dtos\\guaranteedtob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\dtos\\guaranteedtob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\dtos\\donationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\dtos\\donationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\dtos\\guaranteedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\dtos\\guaranteedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.data\\migrations\\20240915163126_balance_currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|solutionrelative:financialmanagement.data\\migrations\\20240915163126_balance_currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|c:\\users\\asus\\desktop\\financial management server\\financial management server\\models\\depositguaranteepostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|solutionrelative:financial management server\\models\\depositguaranteepostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|c:\\users\\asus\\desktop\\financial management server\\financial management server\\models\\guaranteepostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|solutionrelative:financial management server\\models\\guaranteepostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|c:\\users\\asus\\desktop\\financial management server\\financial management server\\mappings\\apimappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|solutionrelative:financial management server\\mappings\\apimappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|c:\\users\\asus\\desktop\\financial management server\\financial management server\\controllers\\loancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|solutionrelative:financial management server\\controllers\\loancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|c:\\users\\asus\\desktop\\financial management server\\financial management server\\controllers\\guaranteecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|solutionrelative:financial management server\\controllers\\guaranteecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\dtos\\userdtoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\dtos\\userdtoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FinancialManagement2/True/SqlTable/dbo.DepositGuarantee.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|c:\\users\\asus\\desktop\\financial management server\\financial management server\\models\\donationpostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|solutionrelative:financial management server\\models\\donationpostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|c:\\users\\asus\\desktop\\financial management server\\financial management server\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|solutionrelative:financial management server\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240912135616_add_table_DepositGuarantee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FinancialManagement.Data\\Migrations\\20240912135616_add_table_DepositGuarantee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\services\\iloanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\services\\iloanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\AppData\\Local\\SourceServer\\d873d2ddeb5806e8e1aa0089860cd1f04fc94839ae7afb5eb41098355e6171eb\\Financial Management Server\\Controllers\\LoanController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|c:\\users\\asus\\desktop\\financial management server\\financial management server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|solutionrelative:financial management server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\AppData\\Local\\SourceServer\\64f1625b54a95ad582538319fbb536d451887fa97d15ebc9d132287d0595967d\\FinancialManagement.Data\\Repositories\\LoanRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|c:\\users\\asus\\desktop\\financial management server\\financial management server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|solutionrelative:financial management server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.data\\migrations\\20240909135419_fundraiser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|solutionrelative:financialmanagement.data\\migrations\\20240909135419_fundraiser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|c:\\users\\asus\\desktop\\financial management server\\financial management server\\financialmanagement.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|solutionrelative:financial management server\\financialmanagement.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\AppData\\Local\\SourceServer\\00dc5744b2be23bbc66aa8d22eb538f9623950eecef949f460a11c67286bf9a5\\FinancialManagement.Data\\Repositories\\LoanRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.data\\migrations\\20240801103849_add fild repaymentdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|solutionrelative:financialmanagement.data\\migrations\\20240801103849_add fild repaymentdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|c:\\users\\asus\\desktop\\financial management server\\financial management server\\models\\userpostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|solutionrelative:financial management server\\models\\userpostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.data\\migrations\\20240723215238_change user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -186,24 +308,8 @@
       "RelativeMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|solutionrelative:financialmanagement.data\\migrations\\datacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|c:\\users\\asus\\desktop\\financial management server\\financial management server\\mappings\\apimappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|solutionrelative:financial management server\\mappings\\apimappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|c:\\users\\asus\\desktop\\financial management server\\financial management server\\financialmanagement.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|solutionrelative:financial management server\\financialmanagement.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|c:\\users\\asus\\desktop\\financial management server\\financial management server\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{55F193EE-0814-4401-AE54-D1EDD2610982}|Financial Management Server\\FinancialManagement.API.csproj|solutionrelative:financial management server\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\financialmanagement.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\financialmanagement.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\mappings\\coremappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\mappings\\coremappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.data\\migrations\\20240829160542_global_variables 2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -224,6 +330,46 @@
     {
       "AbsoluteMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.data\\migrations\\20240831235634_aad_remainingamount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|solutionrelative:financialmanagement.data\\migrations\\20240831235634_aad_remainingamount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.data\\migrations\\20240908224205_add_monthlyrepayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|solutionrelative:financialmanagement.data\\migrations\\20240908224205_add_monthlyrepayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.data\\migrations\\20240908182223_add_reliability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|solutionrelative:financialmanagement.data\\migrations\\20240908182223_add_reliability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.data\\migrations\\20240909165225_amountrefunded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|solutionrelative:financialmanagement.data\\migrations\\20240909165225_amountrefunded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.data\\migrations\\20240909135910_fundraiser2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|solutionrelative:financialmanagement.data\\migrations\\20240909135910_fundraiser2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.data\\migrations\\20240909135935_fundraiser21.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|solutionrelative:financialmanagement.data\\migrations\\20240909135935_fundraiser21.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.data\\migrations\\20240909122431_currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|solutionrelative:financialmanagement.data\\migrations\\20240909122431_currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.data\\migrations\\20240910172739_currencytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|solutionrelative:financialmanagement.data\\migrations\\20240910172739_currencytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.data\\migrations\\20240912140326_add_table_depositguarantee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|solutionrelative:financialmanagement.data\\migrations\\20240912140326_add_table_depositguarantee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.data\\migrations\\20240917090401_paymentmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9357D002-417F-48AD-A6B3-BFFEC9E384F2}|FinancialManagement.Data\\FinancialManagement.Data.csproj|solutionrelative:financialmanagement.data\\migrations\\20240917090401_paymentmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|c:\\users\\asus\\desktop\\financial management server\\financialmanagement.core\\services\\icurrencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58BA9E57-E008-432A-9855-F377742B3C09}|FinancialManagement.Core\\FinancialManagement.Core.csproj|solutionrelative:financialmanagement.core\\services\\icurrencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -232,9 +378,13 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 967,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 1524,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -242,259 +392,601 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LoanRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Repositories\\LoanRepository.cs",
-              "RelativeDocumentMoniker": "FinancialManagement.Data\\Repositories\\LoanRepository.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Repositories\\LoanRepository.cs",
-              "RelativeToolTip": "FinancialManagement.Data\\Repositories\\LoanRepository.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAuwG8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T14:25:44.804Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoanController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\Controllers\\LoanController.cs",
-              "RelativeDocumentMoniker": "Financial Management Server\\Controllers\\LoanController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\Controllers\\LoanController.cs",
-              "RelativeToolTip": "Financial Management Server\\Controllers\\LoanController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAkwDgAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T14:25:44.815Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoanService.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Service\\Services\\LoanService.cs",
-              "RelativeDocumentMoniker": "FinancialManagement.Service\\Services\\LoanService.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Service\\Services\\LoanService.cs",
-              "RelativeToolTip": "FinancialManagement.Service\\Services\\LoanService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T15:42:29.414Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LoanDto.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\LoanDto.cs",
-              "RelativeDocumentMoniker": "FinancialManagement.Core\\DTOs\\LoanDto.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\LoanDto.cs",
-              "RelativeToolTip": "FinancialManagement.Core\\DTOs\\LoanDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T23:57:14.853Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "DepositRepository.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Repositories\\DepositRepository.cs",
               "RelativeDocumentMoniker": "FinancialManagement.Data\\Repositories\\DepositRepository.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Repositories\\DepositRepository.cs",
               "RelativeToolTip": "FinancialManagement.Data\\Repositories\\DepositRepository.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAwD8AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAAAJEAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T14:25:44.838Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\DataContext.cs",
-              "RelativeDocumentMoniker": "FinancialManagement.Data\\DataContext.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\DataContext.cs",
-              "RelativeToolTip": "FinancialManagement.Data\\DataContext.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAnwBEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T14:25:44.817Z"
+              "WhenOpened": "2024-09-09T20:02:54.697Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Loan.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Entities\\Loan.cs",
-              "RelativeDocumentMoniker": "FinancialManagement.Core\\Entities\\Loan.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Entities\\Loan.cs",
-              "RelativeToolTip": "FinancialManagement.Core\\Entities\\Loan.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAxwBoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T14:25:44.809Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoanDtoB.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\LoanDtoB.cs",
-              "RelativeDocumentMoniker": "FinancialManagement.Core\\DTOs\\LoanDtoB.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\LoanDtoB.cs",
-              "RelativeToolTip": "FinancialManagement.Core\\DTOs\\LoanDtoB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T14:25:44.801Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LogInController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\Controllers\\LogInController.cs",
-              "RelativeDocumentMoniker": "Financial Management Server\\Controllers\\LogInController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\Controllers\\LogInController.cs",
-              "RelativeToolTip": "Financial Management Server\\Controllers\\LogInController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAB8AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T14:25:44.833Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "20240831235634_AAD_remainingAmount.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240831235634_AAD_remainingAmount.cs",
-              "RelativeDocumentMoniker": "FinancialManagement.Data\\Migrations\\20240831235634_AAD_remainingAmount.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240831235634_AAD_remainingAmount.cs",
-              "RelativeToolTip": "FinancialManagement.Data\\Migrations\\20240831235634_AAD_remainingAmount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T23:56:35.078Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DonationRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Repositories\\DonationRepository.cs",
-              "RelativeDocumentMoniker": "FinancialManagement.Data\\Repositories\\DonationRepository.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Repositories\\DonationRepository.cs",
-              "RelativeToolTip": "FinancialManagement.Data\\Repositories\\DonationRepository.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAASwCQAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T14:25:44.823Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DonationService.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Service\\Services\\DonationService.cs",
-              "RelativeDocumentMoniker": "FinancialManagement.Service\\Services\\DonationService.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Service\\Services\\DonationService.cs",
-              "RelativeToolTip": "FinancialManagement.Service\\Services\\DonationService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T14:25:44.873Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "DepositService.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Service\\Services\\DepositService.cs",
               "RelativeDocumentMoniker": "FinancialManagement.Service\\Services\\DepositService.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Service\\Services\\DepositService.cs",
               "RelativeToolTip": "FinancialManagement.Service\\Services\\DepositService.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAkwAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAtwD8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T15:26:41.581Z"
+              "WhenOpened": "2024-09-10T15:09:43.09Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "20240829203917_change_int_to_double.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240829203917_change_int_to_double.cs",
-              "RelativeDocumentMoniker": "FinancialManagement.Data\\Migrations\\20240829203917_change_int_to_double.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240829203917_change_int_to_double.cs",
-              "RelativeToolTip": "FinancialManagement.Data\\Migrations\\20240829203917_change_int_to_double.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "DepositController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\Controllers\\DepositController.cs",
+              "RelativeDocumentMoniker": "Financial Management Server\\Controllers\\DepositController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\Controllers\\DepositController.cs",
+              "RelativeToolTip": "Financial Management Server\\Controllers\\DepositController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAvwEEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T20:39:17.679Z"
+              "WhenOpened": "2024-09-10T15:17:02.867Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 3,
+              "Title": "CurrencyType.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Entities\\CurrencyType.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\Entities\\CurrencyType.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Entities\\CurrencyType.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\Entities\\CurrencyType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T17:24:26.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoanService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Service\\Services\\LoanService.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Service\\Services\\LoanService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Service\\Services\\LoanService.cs",
+              "RelativeToolTip": "FinancialManagement.Service\\Services\\LoanService.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAAGMAAACcAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T20:09:43.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Service\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Service\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Service\\Services\\EmailService.cs",
+              "RelativeToolTip": "FinancialManagement.Service\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T21:08:08.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DonationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Repositories\\DonationRepository.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Data\\Repositories\\DonationRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Repositories\\DonationRepository.cs",
+              "RelativeToolTip": "FinancialManagement.Data\\Repositories\\DonationRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAqwCoAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T09:03:18.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Data\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "FinancialManagement.Data\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T14:25:44.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserGuarantee.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Entities\\UserGuarantee.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\Entities\\UserGuarantee.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Entities\\UserGuarantee.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\Entities\\UserGuarantee.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAWwA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T14:25:44.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Loan.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Entities\\Loan.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\Entities\\Loan.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Entities\\Loan.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\Entities\\Loan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T14:25:44.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "GlobalVariablesRepository.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Repositories\\GlobalVariablesRepository.cs",
               "RelativeDocumentMoniker": "FinancialManagement.Data\\Repositories\\GlobalVariablesRepository.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Repositories\\GlobalVariablesRepository.cs",
               "RelativeToolTip": "FinancialManagement.Data\\Repositories\\GlobalVariablesRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAADgvzQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T15:30:48.978Z"
+              "WhenOpened": "2024-08-29T15:30:48.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoanRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Repositories\\LoanRepository.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Data\\Repositories\\LoanRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Repositories\\LoanRepository.cs",
+              "RelativeToolTip": "FinancialManagement.Data\\Repositories\\LoanRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T19:58:52.171Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "GlobalVariables.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Entities\\GlobalVariables.cs",
-              "RelativeDocumentMoniker": "FinancialManagement.Core\\Entities\\GlobalVariables.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Entities\\GlobalVariables.cs",
-              "RelativeToolTip": "FinancialManagement.Core\\Entities\\GlobalVariables.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAwA0AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T15:06:36.533Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ILoanService.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Services\\ILoanService.cs",
-              "RelativeDocumentMoniker": "FinancialManagement.Core\\Services\\ILoanService.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Services\\ILoanService.cs",
-              "RelativeToolTip": "FinancialManagement.Core\\Services\\ILoanService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T15:54:32.099Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\Program.cs",
-              "RelativeDocumentMoniker": "Financial Management Server\\Program.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\Program.cs",
-              "RelativeToolTip": "Financial Management Server\\Program.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAACQAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T14:25:44.885Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
               "Title": "GuaranteeRepository.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Repositories\\GuaranteeRepository.cs",
               "RelativeDocumentMoniker": "FinancialManagement.Data\\Repositories\\GuaranteeRepository.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Repositories\\GuaranteeRepository.cs",
               "RelativeToolTip": "FinancialManagement.Data\\Repositories\\GuaranteeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwCYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T14:25:44.806Z"
+              "WhenOpened": "2024-08-29T14:25:44.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GlobalVariablesService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Service\\Services\\GlobalVariablesService.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Service\\Services\\GlobalVariablesService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Service\\Services\\GlobalVariablesService.cs",
+              "RelativeToolTip": "FinancialManagement.Service\\Services\\GlobalVariablesService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T15:23:58.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoanDto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\LoanDto.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\DTOs\\LoanDto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\LoanDto.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\DTOs\\LoanDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T23:57:14.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ReminderService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Service\\Services\\ReminderService.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Service\\Services\\ReminderService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Service\\Services\\ReminderService.cs",
+              "RelativeToolTip": "FinancialManagement.Service\\Services\\ReminderService.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAFAAAACTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T08:22:31.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GuaranteeService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Service\\Services\\GuaranteeService.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Service\\Services\\GuaranteeService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Service\\Services\\GuaranteeService.cs",
+              "RelativeToolTip": "FinancialManagement.Service\\Services\\GuaranteeService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T08:15:18.266Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "Guarantee.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Entities\\Guarantee.cs",
-              "RelativeDocumentMoniker": "FinancialManagement.Core\\Entities\\Guarantee.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Entities\\Guarantee.cs",
-              "RelativeToolTip": "FinancialManagement.Core\\Entities\\Guarantee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Service\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Service\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Service\\Services\\UserService.cs",
+              "RelativeToolTip": "FinancialManagement.Service\\Services\\UserService.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAADkAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T14:25:44.82Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "20240829160542_global_variables 2.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240829160542_global_variables 2.cs",
-              "RelativeDocumentMoniker": "FinancialManagement.Data\\Migrations\\20240829160542_global_variables 2.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240829160542_global_variables 2.cs",
-              "RelativeToolTip": "FinancialManagement.Data\\Migrations\\20240829160542_global_variables 2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T16:05:42.396Z"
+              "WhenOpened": "2024-09-08T18:16:58.638Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "PaymentMethods.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Entities\\PaymentMethods.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\Entities\\PaymentMethods.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Entities\\PaymentMethods.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\Entities\\PaymentMethods.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T09:01:25.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoanDtoB.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\LoanDtoB.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\DTOs\\LoanDtoB.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\LoanDtoB.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\DTOs\\LoanDtoB.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvw8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T14:25:44.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DepositGuaranteeDtoB.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\DepositGuaranteeDtoB.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\DTOs\\DepositGuaranteeDtoB.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\DepositGuaranteeDtoB.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\DTOs\\DepositGuaranteeDtoB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T13:44:16.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DepositGuaranteeDtoA.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\DepositGuaranteeDtoA.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\DTOs\\DepositGuaranteeDtoA.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\DepositGuaranteeDtoA.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\DTOs\\DepositGuaranteeDtoA.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T13:44:35.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DepositDtoB.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\DepositDtoB.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\DTOs\\DepositDtoB.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\DepositDtoB.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\DTOs\\DepositDtoB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T14:56:38.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DepositDto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\DepositDto.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\DTOs\\DepositDto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\DepositDto.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\DTOs\\DepositDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T14:25:44.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoanPostModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\models\\LoanPostModel.cs",
+              "RelativeDocumentMoniker": "Financial Management Server\\models\\LoanPostModel.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\models\\LoanPostModel.cs",
+              "RelativeToolTip": "Financial Management Server\\models\\LoanPostModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T14:25:44.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DepositPostModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\models\\DepositPostModel.cs",
+              "RelativeDocumentMoniker": "Financial Management Server\\models\\DepositPostModel.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\models\\DepositPostModel.cs",
+              "RelativeToolTip": "Financial Management Server\\models\\DepositPostModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T17:25:57.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Deposit.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Entities\\Deposit.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\Entities\\Deposit.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Entities\\Deposit.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\Entities\\Deposit.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T17:20:27.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Donation.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Entities\\Donation.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\Entities\\Donation.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Entities\\Donation.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\Entities\\Donation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T14:25:44.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "20240917090401_paymentMethods.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240917090401_paymentMethods.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Data\\Migrations\\20240917090401_paymentMethods.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240917090401_paymentMethods.cs",
+              "RelativeToolTip": "FinancialManagement.Data\\Migrations\\20240917090401_paymentMethods.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T09:04:01.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "dbo.Guarantees.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FinancialManagement2/True/SqlTable/dbo.Guarantees.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FinancialManagement2/True/SqlTable/dbo.Guarantees.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-16T11:40:28.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IGlobalVariablesService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Services\\IGlobalVariablesService.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\Services\\IGlobalVariablesService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Services\\IGlobalVariablesService.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\Services\\IGlobalVariablesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T15:25:22.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Services\\IUserService.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\Services\\IUserService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T18:16:16.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "dbo.Loans.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FinancialManagement2/True/SqlTable/dbo.Loans.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FinancialManagement2/True/SqlTable/dbo.Loans.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-16T11:39:19.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "dbo.Deposits.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FinancialManagement2/True/SqlTable/dbo.Deposits.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FinancialManagement2/True/SqlTable/dbo.Deposits.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-16T11:41:31.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "ICurrencyService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Services\\ICurrencyService.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\Services\\ICurrencyService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Services\\ICurrencyService.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\Services\\ICurrencyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T10:59:09.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CurrencyService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Service\\Services\\CurrencyService.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Service\\Services\\CurrencyService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Service\\Services\\CurrencyService.cs",
+              "RelativeToolTip": "FinancialManagement.Service\\Services\\CurrencyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T13:54:33.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IGuaranteeService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Services\\IGuaranteeService.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\Services\\IGuaranteeService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Services\\IGuaranteeService.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\Services\\IGuaranteeService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T15:54:38.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IDepositService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Services\\IDepositService.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\Services\\IDepositService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Services\\IDepositService.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\Services\\IDepositService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T11:03:23.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\Program.cs",
+              "RelativeDocumentMoniker": "Financial Management Server\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\Program.cs",
+              "RelativeToolTip": "Financial Management Server\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwC4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T14:25:44.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "FinancialManagement.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\FinancialManagement.Core.csproj",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\FinancialManagement.Core.csproj",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\FinancialManagement.Core.csproj",
+              "RelativeToolTip": "FinancialManagement.Core\\FinancialManagement.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-29T14:25:44.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DonationService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Service\\Services\\DonationService.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Service\\Services\\DonationService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Service\\Services\\DonationService.cs",
+              "RelativeToolTip": "FinancialManagement.Service\\Services\\DonationService.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAIAwwDcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T14:25:44.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IContributionService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Services\\IContributionService.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\Services\\IContributionService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Services\\IContributionService.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\Services\\IContributionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T10:58:34.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ILoanRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Repositories\\ILoanRepository.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\Repositories\\ILoanRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Repositories\\ILoanRepository.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\Repositories\\ILoanRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T22:28:32.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwBMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T18:17:53.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "GlobalVariablesController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\Controllers\\GlobalVariablesController.cs",
+              "RelativeDocumentMoniker": "Financial Management Server\\Controllers\\GlobalVariablesController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\Controllers\\GlobalVariablesController.cs",
+              "RelativeToolTip": "Financial Management Server\\Controllers\\GlobalVariablesController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T15:19:32.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "DepositGuarantee.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Entities\\DepositGuarantee.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\Entities\\DepositGuarantee.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Entities\\DepositGuarantee.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\Entities\\DepositGuarantee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T13:33:25.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IGlobalVariablesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Repositories\\IGlobalVariablesRepository.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\Repositories\\IGlobalVariablesRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Repositories\\IGlobalVariablesRepository.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\Repositories\\IGlobalVariablesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T15:33:05.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IGuaranteeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Repositories\\IGuaranteeRepository.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\Repositories\\IGuaranteeRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Repositories\\IGuaranteeRepository.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\Repositories\\IGuaranteeRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T15:49:15.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\DataContext.cs",
+              "RelativeToolTip": "FinancialManagement.Data\\DataContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIA2wBsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T14:25:44.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
               "Title": "FinancialManagement.Service.csproj",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Service\\FinancialManagement.Service.csproj",
               "RelativeDocumentMoniker": "FinancialManagement.Service\\FinancialManagement.Service.csproj",
@@ -506,175 +998,447 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "GlobalVariablesService.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Service\\Services\\GlobalVariablesService.cs",
-              "RelativeDocumentMoniker": "FinancialManagement.Service\\Services\\GlobalVariablesService.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Service\\Services\\GlobalVariablesService.cs",
-              "RelativeToolTip": "FinancialManagement.Service\\Services\\GlobalVariablesService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA/AAAAAAAAAA==",
+              "DocumentIndex": 48,
+              "Title": "GlobalVariables.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Entities\\GlobalVariables.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\Entities\\GlobalVariables.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Entities\\GlobalVariables.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\Entities\\GlobalVariables.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwAoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T15:23:58.875Z"
+              "WhenOpened": "2024-08-29T15:06:36.533Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "GlobalVariablesController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\Controllers\\GlobalVariablesController.cs",
-              "RelativeDocumentMoniker": "Financial Management Server\\Controllers\\GlobalVariablesController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\Controllers\\GlobalVariablesController.cs",
-              "RelativeToolTip": "Financial Management Server\\Controllers\\GlobalVariablesController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABsAAABCAAAAAAAAAA==",
+              "DocumentIndex": 49,
+              "Title": "CoreMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\mappings\\CoreMappingProfile.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\mappings\\CoreMappingProfile.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\mappings\\CoreMappingProfile.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\mappings\\CoreMappingProfile.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T15:19:32.017Z"
+              "WhenOpened": "2024-08-29T14:25:44.901Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 50,
+              "Title": "UserDtoB.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\UserDtoB.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\DTOs\\UserDtoB.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\UserDtoB.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\DTOs\\UserDtoB.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwBQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T14:25:44.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "GuaranteeDtoB.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\GuaranteeDtoB.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\DTOs\\GuaranteeDtoB.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\GuaranteeDtoB.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\DTOs\\GuaranteeDtoB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T18:24:56.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "DonationDto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\DonationDto.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\DTOs\\DonationDto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\DonationDto.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\DTOs\\DonationDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T14:25:44.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "GuaranteeDto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\GuaranteeDto.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\DTOs\\GuaranteeDto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\GuaranteeDto.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\DTOs\\GuaranteeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T18:24:53.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "20240915163126_Balance_currency.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240915163126_Balance_currency.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Data\\Migrations\\20240915163126_Balance_currency.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240915163126_Balance_currency.cs",
+              "RelativeToolTip": "FinancialManagement.Data\\Migrations\\20240915163126_Balance_currency.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T16:31:26.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ApiMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\mappings\\ApiMappingProfile.cs",
+              "RelativeDocumentMoniker": "Financial Management Server\\mappings\\ApiMappingProfile.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\mappings\\ApiMappingProfile.cs",
+              "RelativeToolTip": "Financial Management Server\\mappings\\ApiMappingProfile.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T14:25:44.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "DepositGuaranteePostModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\models\\DepositGuaranteePostModel.cs",
+              "RelativeDocumentMoniker": "Financial Management Server\\models\\DepositGuaranteePostModel.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\models\\DepositGuaranteePostModel.cs",
+              "RelativeToolTip": "Financial Management Server\\models\\DepositGuaranteePostModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T14:19:34.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "GuaranteePostModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\models\\GuaranteePostModel.cs",
+              "RelativeDocumentMoniker": "Financial Management Server\\models\\GuaranteePostModel.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\models\\GuaranteePostModel.cs",
+              "RelativeToolTip": "Financial Management Server\\models\\GuaranteePostModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T14:18:50.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "LoanController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\Controllers\\LoanController.cs",
+              "RelativeDocumentMoniker": "Financial Management Server\\Controllers\\LoanController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\Controllers\\LoanController.cs",
+              "RelativeToolTip": "Financial Management Server\\Controllers\\LoanController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwD0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T17:44:48.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
               "Title": "GuaranteeController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\Controllers\\GuaranteeController.cs",
               "RelativeDocumentMoniker": "Financial Management Server\\Controllers\\GuaranteeController.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\Controllers\\GuaranteeController.cs",
               "RelativeToolTip": "Financial Management Server\\Controllers\\GuaranteeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAcwBQAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwCMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T14:25:44.89Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IGlobalVariablesRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Repositories\\IGlobalVariablesRepository.cs",
-              "RelativeDocumentMoniker": "FinancialManagement.Core\\Repositories\\IGlobalVariablesRepository.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Repositories\\IGlobalVariablesRepository.cs",
-              "RelativeToolTip": "FinancialManagement.Core\\Repositories\\IGlobalVariablesRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 60,
+              "Title": "UserDtoA.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\UserDtoA.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\DTOs\\UserDtoA.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\UserDtoA.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\DTOs\\UserDtoA.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T15:33:05.79Z"
+              "WhenOpened": "2024-08-29T14:25:44.793Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IGuaranteeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Repositories\\IGuaranteeRepository.cs",
-              "RelativeDocumentMoniker": "FinancialManagement.Core\\Repositories\\IGuaranteeRepository.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Repositories\\IGuaranteeRepository.cs",
-              "RelativeToolTip": "FinancialManagement.Core\\Repositories\\IGuaranteeRepository.cs",
+              "DocumentIndex": 61,
+              "Title": "dbo.DepositGuarantee.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FinancialManagement2/True/SqlTable/dbo.DepositGuarantee.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FinancialManagement2/True/SqlTable/dbo.DepositGuarantee.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-12T14:44:42.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Entities\\User.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\Entities\\User.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwB4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T14:25:44.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "DonationPostModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\models\\DonationPostModel.cs",
+              "RelativeDocumentMoniker": "Financial Management Server\\models\\DonationPostModel.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\models\\DonationPostModel.cs",
+              "RelativeToolTip": "Financial Management Server\\models\\DonationPostModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T14:25:44.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "20240912135616_add_table_DepositGuarantee.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240912135616_add_table_DepositGuarantee.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Data\\Migrations\\20240912135616_add_table_DepositGuarantee.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240912135616_add_table_DepositGuarantee.cs",
+              "RelativeToolTip": "FinancialManagement.Data\\Migrations\\20240912135616_add_table_DepositGuarantee.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T13:56:16.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "LogInController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\Controllers\\LogInController.cs",
+              "RelativeDocumentMoniker": "Financial Management Server\\Controllers\\LogInController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\Controllers\\LogInController.cs",
+              "RelativeToolTip": "Financial Management Server\\Controllers\\LogInController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAuwB8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T14:25:44.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "20240912140326_add_table_DepositGuarantee.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240912140326_add_table_DepositGuarantee.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Data\\Migrations\\20240912140326_add_table_DepositGuarantee.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240912140326_add_table_DepositGuarantee.cs",
+              "RelativeToolTip": "FinancialManagement.Data\\Migrations\\20240912140326_add_table_DepositGuarantee.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T15:49:15.583Z"
+              "WhenOpened": "2024-09-12T14:03:26.954Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IContributionService.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Services\\IContributionService.cs",
-              "RelativeDocumentMoniker": "FinancialManagement.Core\\Services\\IContributionService.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Services\\IContributionService.cs",
-              "RelativeToolTip": "FinancialManagement.Core\\Services\\IContributionService.cs",
+              "DocumentIndex": 66,
+              "Title": "ILoanService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Services\\ILoanService.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Core\\Services\\ILoanService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Services\\ILoanService.cs",
+              "RelativeToolTip": "FinancialManagement.Core\\Services\\ILoanService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T15:54:32.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "LoanController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\AppData\\Local\\SourceServer\\d873d2ddeb5806e8e1aa0089860cd1f04fc94839ae7afb5eb41098355e6171eb\\Financial Management Server\\Controllers\\LoanController.cs",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\SourceServer\\d873d2ddeb5806e8e1aa0089860cd1f04fc94839ae7afb5eb41098355e6171eb\\Financial Management Server\\Controllers\\LoanController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\AppData\\Local\\SourceServer\\d873d2ddeb5806e8e1aa0089860cd1f04fc94839ae7afb5eb41098355e6171eb\\Financial Management Server\\Controllers\\LoanController.cs",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\SourceServer\\d873d2ddeb5806e8e1aa0089860cd1f04fc94839ae7afb5eb41098355e6171eb\\Financial Management Server\\Controllers\\LoanController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAEwDUAAAAIAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T17:57:27.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "20240910172739_CurrencyType.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240910172739_CurrencyType.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Data\\Migrations\\20240910172739_CurrencyType.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240910172739_CurrencyType.cs",
+              "RelativeToolTip": "FinancialManagement.Data\\Migrations\\20240910172739_CurrencyType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T15:56:49.811Z"
+              "WhenOpened": "2024-09-10T17:27:39.73Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "IDepositService.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Services\\IDepositService.cs",
-              "RelativeDocumentMoniker": "FinancialManagement.Core\\Services\\IDepositService.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Services\\IDepositService.cs",
-              "RelativeToolTip": "FinancialManagement.Core\\Services\\IDepositService.cs",
+              "DocumentIndex": 68,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Financial Management Server\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Financial Management Server\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T18:12:32.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "LoanRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\AppData\\Local\\SourceServer\\64f1625b54a95ad582538319fbb536d451887fa97d15ebc9d132287d0595967d\\FinancialManagement.Data\\Repositories\\LoanRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\SourceServer\\64f1625b54a95ad582538319fbb536d451887fa97d15ebc9d132287d0595967d\\FinancialManagement.Data\\Repositories\\LoanRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\AppData\\Local\\SourceServer\\64f1625b54a95ad582538319fbb536d451887fa97d15ebc9d132287d0595967d\\FinancialManagement.Data\\Repositories\\LoanRepository.cs",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\SourceServer\\64f1625b54a95ad582538319fbb536d451887fa97d15ebc9d132287d0595967d\\FinancialManagement.Data\\Repositories\\LoanRepository.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAIBJwIcAAAAAAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T15:26:39.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\appsettings.json",
+              "RelativeDocumentMoniker": "Financial Management Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\appsettings.json",
+              "RelativeToolTip": "Financial Management Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-09T09:07:18.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "20240909165225_AmountRefunded.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240909165225_AmountRefunded.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Data\\Migrations\\20240909165225_AmountRefunded.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240909165225_AmountRefunded.cs",
+              "RelativeToolTip": "FinancialManagement.Data\\Migrations\\20240909165225_AmountRefunded.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T15:56:48.533Z"
+              "WhenOpened": "2024-09-09T16:52:25.577Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IGlobalVariablesService.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Services\\IGlobalVariablesService.cs",
-              "RelativeDocumentMoniker": "FinancialManagement.Core\\Services\\IGlobalVariablesService.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Services\\IGlobalVariablesService.cs",
-              "RelativeToolTip": "FinancialManagement.Core\\Services\\IGlobalVariablesService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T15:25:22.961Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "IGuaranteeService.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Services\\IGuaranteeService.cs",
-              "RelativeDocumentMoniker": "FinancialManagement.Core\\Services\\IGuaranteeService.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Services\\IGuaranteeService.cs",
-              "RelativeToolTip": "FinancialManagement.Core\\Services\\IGuaranteeService.cs",
+              "DocumentIndex": 87,
+              "Title": "20240909135910_fundraiser2.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240909135910_fundraiser2.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Data\\Migrations\\20240909135910_fundraiser2.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240909135910_fundraiser2.cs",
+              "RelativeToolTip": "FinancialManagement.Data\\Migrations\\20240909135910_fundraiser2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T15:54:38.018Z"
+              "WhenOpened": "2024-09-09T13:59:11.029Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "IDonationRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Repositories\\IDonationRepository.cs",
-              "RelativeDocumentMoniker": "FinancialManagement.Core\\Repositories\\IDonationRepository.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Repositories\\IDonationRepository.cs",
-              "RelativeToolTip": "FinancialManagement.Core\\Repositories\\IDonationRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
+              "DocumentIndex": 88,
+              "Title": "20240909135935_fundraiser21.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240909135935_fundraiser21.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Data\\Migrations\\20240909135935_fundraiser21.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240909135935_fundraiser21.cs",
+              "RelativeToolTip": "FinancialManagement.Data\\Migrations\\20240909135935_fundraiser21.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T14:25:44.855Z"
+              "WhenOpened": "2024-09-09T13:59:35.321Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "FinancialManagement.Data\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "FinancialManagement.Data\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAADwAAAAyAAAAAAAAAA==",
+              "DocumentIndex": 71,
+              "Title": "20240909135419_fundraiser.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240909135419_fundraiser.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Data\\Migrations\\20240909135419_fundraiser.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240909135419_fundraiser.cs",
+              "RelativeToolTip": "FinancialManagement.Data\\Migrations\\20240909135419_fundraiser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T14:25:44.812Z"
+              "WhenOpened": "2024-09-09T13:54:19.902Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 89,
+              "Title": "20240909122431_Currency.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240909122431_Currency.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Data\\Migrations\\20240909122431_Currency.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240909122431_Currency.cs",
+              "RelativeToolTip": "FinancialManagement.Data\\Migrations\\20240909122431_Currency.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T12:24:32.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "20240908224205_add_MonthlyRepayment.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240908224205_add_MonthlyRepayment.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Data\\Migrations\\20240908224205_add_MonthlyRepayment.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240908224205_add_MonthlyRepayment.cs",
+              "RelativeToolTip": "FinancialManagement.Data\\Migrations\\20240908224205_add_MonthlyRepayment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T22:42:05.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "FinancialManagement.API.csproj",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\FinancialManagement.API.csproj",
+              "RelativeDocumentMoniker": "Financial Management Server\\FinancialManagement.API.csproj",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\FinancialManagement.API.csproj",
+              "RelativeToolTip": "Financial Management Server\\FinancialManagement.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-29T14:25:44.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "20240908182223_add_reliability.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240908182223_add_reliability.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Data\\Migrations\\20240908182223_add_reliability.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240908182223_add_reliability.cs",
+              "RelativeToolTip": "FinancialManagement.Data\\Migrations\\20240908182223_add_reliability.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T18:22:23.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "20240831235634_AAD_remainingAmount.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240831235634_AAD_remainingAmount.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Data\\Migrations\\20240831235634_AAD_remainingAmount.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240831235634_AAD_remainingAmount.cs",
+              "RelativeToolTip": "FinancialManagement.Data\\Migrations\\20240831235634_AAD_remainingAmount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T23:56:35.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "20240829203917_change_int_to_double.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240829203917_change_int_to_double.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Data\\Migrations\\20240829203917_change_int_to_double.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240829203917_change_int_to_double.cs",
+              "RelativeToolTip": "FinancialManagement.Data\\Migrations\\20240829203917_change_int_to_double.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T20:39:17.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "20240829160542_global_variables 2.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240829160542_global_variables 2.cs",
+              "RelativeDocumentMoniker": "FinancialManagement.Data\\Migrations\\20240829160542_global_variables 2.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240829160542_global_variables 2.cs",
+              "RelativeToolTip": "FinancialManagement.Data\\Migrations\\20240829160542_global_variables 2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T16:05:42.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
               "Title": "20240829151458_global_variables.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240829151458_global_variables.cs",
               "RelativeDocumentMoniker": "FinancialManagement.Data\\Migrations\\20240829151458_global_variables.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240829151458_global_variables.cs",
               "RelativeToolTip": "FinancialManagement.Data\\Migrations\\20240829151458_global_variables.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAF8AAAAAAAAAAIBZwAsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T15:14:59.032Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "DonationController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\Controllers\\DonationController.cs",
-              "RelativeDocumentMoniker": "Financial Management Server\\Controllers\\DonationController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\Controllers\\DonationController.cs",
-              "RelativeToolTip": "Financial Management Server\\Controllers\\DonationController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T14:25:44.835Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "DepositController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\Controllers\\DepositController.cs",
-              "RelativeDocumentMoniker": "Financial Management Server\\Controllers\\DepositController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\Controllers\\DepositController.cs",
-              "RelativeToolTip": "Financial Management Server\\Controllers\\DepositController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T14:25:44.83Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 81,
               "Title": "20240829151006_global_vars.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240829151006_global_vars.cs",
               "RelativeDocumentMoniker": "FinancialManagement.Data\\Migrations\\20240829151006_global_vars.cs",
@@ -686,232 +1450,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "UserDtoB.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\UserDtoB.cs",
-              "RelativeDocumentMoniker": "FinancialManagement.Core\\DTOs\\UserDtoB.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\UserDtoB.cs",
-              "RelativeToolTip": "FinancialManagement.Core\\DTOs\\UserDtoB.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T14:25:44.796Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "UserDtoA.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\UserDtoA.cs",
-              "RelativeDocumentMoniker": "FinancialManagement.Core\\DTOs\\UserDtoA.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\UserDtoA.cs",
-              "RelativeToolTip": "FinancialManagement.Core\\DTOs\\UserDtoA.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T14:25:44.793Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "DonationDto.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\DonationDto.cs",
-              "RelativeDocumentMoniker": "FinancialManagement.Core\\DTOs\\DonationDto.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\DonationDto.cs",
-              "RelativeToolTip": "FinancialManagement.Core\\DTOs\\DonationDto.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T14:25:44.79Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "DepositDto.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\DepositDto.cs",
-              "RelativeDocumentMoniker": "FinancialManagement.Core\\DTOs\\DepositDto.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\DTOs\\DepositDto.cs",
-              "RelativeToolTip": "FinancialManagement.Core\\DTOs\\DepositDto.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T14:25:44.689Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 73,
               "Title": "LoanRepository.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\AppData\\Local\\SourceServer\\00dc5744b2be23bbc66aa8d22eb538f9623950eecef949f460a11c67286bf9a5\\FinancialManagement.Data\\Repositories\\LoanRepository.cs",
               "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\SourceServer\\00dc5744b2be23bbc66aa8d22eb538f9623950eecef949f460a11c67286bf9a5\\FinancialManagement.Data\\Repositories\\LoanRepository.cs",
               "ToolTip": "C:\\Users\\ASUS\\AppData\\Local\\SourceServer\\00dc5744b2be23bbc66aa8d22eb538f9623950eecef949f460a11c67286bf9a5\\FinancialManagement.Data\\Repositories\\LoanRepository.cs",
               "RelativeToolTip": "..\\..\\AppData\\Local\\SourceServer\\00dc5744b2be23bbc66aa8d22eb538f9623950eecef949f460a11c67286bf9a5\\FinancialManagement.Data\\Repositories\\LoanRepository.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAswC4AAAAIAAAA",
+              "ViewState": "AgIAACEAAAAAAAAAAAAswC4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-04T19:30:04.181Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 74,
               "Title": "20240801103849_add fild repaymentDate.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240801103849_add fild repaymentDate.cs",
               "RelativeDocumentMoniker": "FinancialManagement.Data\\Migrations\\20240801103849_add fild repaymentDate.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240801103849_add fild repaymentDate.cs",
               "RelativeToolTip": "FinancialManagement.Data\\Migrations\\20240801103849_add fild repaymentDate.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T14:25:44.841Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "LoanPostModel.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\models\\LoanPostModel.cs",
-              "RelativeDocumentMoniker": "Financial Management Server\\models\\LoanPostModel.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\models\\LoanPostModel.cs",
-              "RelativeToolTip": "Financial Management Server\\models\\LoanPostModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T14:25:44.844Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "DonationPostModel.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\models\\DonationPostModel.cs",
-              "RelativeDocumentMoniker": "Financial Management Server\\models\\DonationPostModel.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\models\\DonationPostModel.cs",
-              "RelativeToolTip": "Financial Management Server\\models\\DonationPostModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T14:25:44.846Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Deposit.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Entities\\Deposit.cs",
-              "RelativeDocumentMoniker": "FinancialManagement.Core\\Entities\\Deposit.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Entities\\Deposit.cs",
-              "RelativeToolTip": "FinancialManagement.Core\\Entities\\Deposit.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBIAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T14:25:44.849Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Donation.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Entities\\Donation.cs",
-              "RelativeDocumentMoniker": "FinancialManagement.Core\\Entities\\Donation.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Entities\\Donation.cs",
-              "RelativeToolTip": "FinancialManagement.Core\\Entities\\Donation.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAA+wAkAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T14:25:44.852Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 75,
               "Title": "UserPostModel.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\models\\UserPostModel.cs",
               "RelativeDocumentMoniker": "Financial Management Server\\models\\UserPostModel.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\models\\UserPostModel.cs",
               "RelativeToolTip": "Financial Management Server\\models\\UserPostModel.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAUwA0AAAAWAAAA",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwA0AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T14:25:44.858Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "FinancialManagement.Core\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\Entities\\User.cs",
-              "RelativeToolTip": "FinancialManagement.Core\\Entities\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T14:25:44.86Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 76,
               "Title": "20240723215238_change user.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240723215238_change user.cs",
               "RelativeDocumentMoniker": "FinancialManagement.Data\\Migrations\\20240723215238_change user.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\20240723215238_change user.cs",
               "RelativeToolTip": "FinancialManagement.Data\\Migrations\\20240723215238_change user.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAfAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T14:25:44.863Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 77,
               "Title": "DataContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\DataContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "FinancialManagement.Data\\Migrations\\DataContextModelSnapshot.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Data\\Migrations\\DataContextModelSnapshot.cs",
               "RelativeToolTip": "FinancialManagement.Data\\Migrations\\DataContextModelSnapshot.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAACBjwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T14:25:44.869Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "ApiMappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\mappings\\ApiMappingProfile.cs",
-              "RelativeDocumentMoniker": "Financial Management Server\\mappings\\ApiMappingProfile.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\mappings\\ApiMappingProfile.cs",
-              "RelativeToolTip": "Financial Management Server\\mappings\\ApiMappingProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T14:25:44.877Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "FinancialManagement.API.csproj",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\FinancialManagement.API.csproj",
-              "RelativeDocumentMoniker": "Financial Management Server\\FinancialManagement.API.csproj",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\FinancialManagement.API.csproj",
-              "RelativeToolTip": "Financial Management Server\\FinancialManagement.API.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-29T14:25:44.881Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 78,
               "Title": "libman.json",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\libman.json",
               "RelativeDocumentMoniker": "Financial Management Server\\libman.json",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\Financial Management Server\\libman.json",
               "RelativeToolTip": "Financial Management Server\\libman.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-08-29T14:25:44.894Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "FinancialManagement.Core.csproj",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\FinancialManagement.Core.csproj",
-              "RelativeDocumentMoniker": "FinancialManagement.Core\\FinancialManagement.Core.csproj",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\FinancialManagement.Core.csproj",
-              "RelativeToolTip": "FinancialManagement.Core\\FinancialManagement.Core.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-29T14:25:44.898Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "CoreMappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\mappings\\CoreMappingProfile.cs",
-              "RelativeDocumentMoniker": "FinancialManagement.Core\\mappings\\CoreMappingProfile.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Financial Management Server\\FinancialManagement.Core\\mappings\\CoreMappingProfile.cs",
-              "RelativeToolTip": "FinancialManagement.Core\\mappings\\CoreMappingProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T14:25:44.901Z"
             }
           ]
         },
         {
-          "DockedWidth": 236,
+          "DockedWidth": 349,
           "SelectedChildIndex": -1,
           "Children": [
             {

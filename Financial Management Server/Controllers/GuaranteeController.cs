@@ -18,7 +18,7 @@ namespace FinancialManagement.Controllers
         }
         // GET: api/<GuaranteeController>
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Guarantee>>> Get()
+        public async Task<ActionResult<IEnumerable<UserGuarantee>>> Get()
         {
             var list = await _GuaranteeService.GetAllAsync();
             return Ok(list);
@@ -34,7 +34,7 @@ namespace FinancialManagement.Controllers
 
         // POST api/<GuaranteeController>
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody] Guarantee value)
+        public async Task<ActionResult> Post([FromBody] UserGuarantee value)
         {
             var res = await _GuaranteeService.PostGuaranteeAsync(value);
             return res != null ? Ok(value) : NotFound(value);
@@ -42,7 +42,7 @@ namespace FinancialManagement.Controllers
 
         // PUT api/<GuaranteeController>/5
         [HttpPut("{id}")]
-        public async Task<ActionResult> Put(int id, [FromBody] Guarantee value)
+        public async Task<ActionResult> Put(int id, [FromBody] UserGuarantee value)
         {
             var res = await _GuaranteeService.PutGuaranteeAsync(id, value);
             return res != null ? Ok(res) : NotFound(res);

@@ -47,7 +47,8 @@ namespace FinancialManagement.Controllers
         {
             var user = _mapper.Map<User>(value);
             var res = await _UserService.PostUserAsync(user);
-            return res != null ? Ok(value) : NotFound(value);
+            var resDto = _mapper.Map<UserDtoB>(res);
+            return res != null ? Ok(resDto) : NotFound(value);
 
         }
         // PUT api/<UserController>/5
@@ -56,6 +57,12 @@ namespace FinancialManagement.Controllers
         {
             var user = _mapper.Map<User>(value);
             var res = await _UserService.PutUserAsync(id, user);
+            return res != null ? Ok(res) : NotFound(res);
+        }
+        [HttpPut("{id}/reliability")]
+        public async Task<ActionResult> UpdateReliability(int id, [FromBody] bool isReliable)
+        {
+            var res = await _UserService.PutReliabilityAsync(id, isReliable);
             return res != null ? Ok(res) : NotFound(res);
         }
 

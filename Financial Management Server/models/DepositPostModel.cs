@@ -8,6 +8,8 @@ namespace FinancialManagement.API.models
         public double Amount { get; set; }
         public DateTime DepositDate { get; set; }
         public DateTime DateOfMaturity { get; set; }
+        public CurrencyType Currency { get; set; }
+        public PaymentMethods paymentMethods { get; set; }
         public string Notes { get; set; }
     }
 }

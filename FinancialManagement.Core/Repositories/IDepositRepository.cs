@@ -17,6 +17,6 @@ namespace FinancialManagement.Core.Repositories
 
         public Task<Deposit> PutAsync(int id, Deposit value);
 
-        public Task<Deposit> DeleteAsync(int id);
+        public Task<Deposit> DeleteAsync(int id, double? repaymentAmount = null);
     }
 }

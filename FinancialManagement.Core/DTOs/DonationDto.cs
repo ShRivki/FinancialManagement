@@ -9,9 +9,12 @@ namespace FinancialManagement.Core.DTOs
 {
     public class DonationDto
     {
+        public int Id { get; set; }
         public UserDtoA Donor { get; set; }
 
         public double Amount { get; set; }
+        public CurrencyType Currency { get; set; }
+        public FundraiserType Fundraiser { get; set; }
 
         public string Notes { get; set; }
 

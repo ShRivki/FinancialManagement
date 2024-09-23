@@ -10,5 +10,6 @@ namespace FinancialManagement.Core.Services
     public interface IGlobalVariablesService
     {
         public Task<IEnumerable<GlobalVariables>> GetAllAsync();
+        public Task<IEnumerable<GlobalVariables>> PutAsync(double value, CurrencyType currencyType);
     }
 }

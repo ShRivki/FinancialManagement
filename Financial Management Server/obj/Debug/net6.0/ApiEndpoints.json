@@ -84,6 +84,11 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
+      },
+      {
+        "Name": "repaymentAmount",
+        "Type": "System.Nullable\u00601[[System.Double, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -198,6 +203,32 @@
     ]
   },
   {
+    "ContainingType": "FinancialManagement.API.Controllers.GlobalVariablesController",
+    "Method": "Put",
+    "RelativePath": "api/GlobalVariables/{operatingExpenses}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "operatingExpenses",
+        "Type": "System.Double",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinancialManagement.API.Controllers.GlobalVariablesController",
+    "Method": "GetRates",
+    "RelativePath": "api/GlobalVariables/rates",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FinancialManagement.Controllers.GuaranteeController",
     "Method": "Get",
     "RelativePath": "api/Guarantee",
@@ -207,7 +238,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[FinancialManagement.Core.Entities.Guarantee, FinancialManagement.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FinancialManagement.Core.Entities.UserGuarantee, FinancialManagement.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -227,7 +258,7 @@
     "Parameters": [
       {
         "Name": "value",
-        "Type": "FinancialManagement.Core.Entities.Guarantee",
+        "Type": "FinancialManagement.Core.Entities.UserGuarantee",
         "IsRequired": true
       }
     ],
@@ -264,7 +295,7 @@
       },
       {
         "Name": "value",
-        "Type": "FinancialManagement.Core.Entities.Guarantee",
+        "Type": "FinancialManagement.Core.Entities.UserGuarantee",
         "IsRequired": true
       }
     ],
@@ -371,6 +402,11 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
+      },
+      {
+        "Name": "repaymentAmount",
+        "Type": "System.Nullable\u00601[[System.Double, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -475,6 +511,27 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinancialManagement.Controllers.UserController",
+    "Method": "UpdateReliability",
+    "RelativePath": "api/User/{id}/reliability",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "isReliable",
+        "Type": "System.Boolean",
         "IsRequired": true
       }
     ],

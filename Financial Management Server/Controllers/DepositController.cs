@@ -46,7 +46,8 @@ namespace FinancialManagement.Controllers
         {
             var deposit = _mapper.Map<Deposit>(value);
             var res = await _DepositService.PostDepositAsync(deposit);
-            return res != null ? Ok(value) : NotFound(value);
+            var resDto = _mapper.Map<DepositDto>(res);
+            return res != null ? Ok(resDto) : NotFound(value);
         }
 
         // PUT api/<DepositController>/5
@@ -60,11 +61,12 @@ namespace FinancialManagement.Controllers
 
         // DELETE api/<DepositController>/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult> Delete(int id)
+        public async Task<ActionResult> Delete(int id, [FromQuery] double? repaymentAmount = null)
         {
-            var res = await _DepositService.DeleteDepositAsync(id);
+            var res = await _DepositService.DeleteDepositAsync(id, repaymentAmount);
             var resDto = _mapper.Map<DepositDto>(res);
             return res != null ? Ok(resDto) : NotFound(resDto);
         }
+
     }
 }

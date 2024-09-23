@@ -7,7 +7,7 @@ namespace FinancialManagement.Data
     {
         public DbSet<Donation> Donations { get; set; }
         public DbSet<Deposit> Deposits { get; set; }
-        public DbSet<Guarantee> Guarantees { get; set; }
+        public DbSet<UserGuarantee> Guarantees { get; set; }
         public DbSet<Loan> Loans { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<GlobalVariables> GlobalVariables { get; set; }
@@ -21,6 +21,11 @@ namespace FinancialManagement.Data
         {
             modelBuilder.Entity<Loan>()
                 .HasMany(l => l.Guarantees)
+                .WithOne(g => g.Loan)
+                .HasForeignKey(g => g.LoanId)
+                .OnDelete(DeleteBehavior.Restrict);
+            modelBuilder.Entity<Loan>()
+                .HasMany(l => l.DepositGuarantee)
                 .WithOne(g => g.Loan)
                 .HasForeignKey(g => g.LoanId)
                 .OnDelete(DeleteBehavior.Restrict);

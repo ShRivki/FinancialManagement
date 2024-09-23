@@ -15,7 +15,8 @@ namespace Solid.API.mappings
             CreateMap<UserPostModel, User>().ReverseMap();
             CreateMap<LoanPostModel, Loan>().ReverseMap();
             CreateMap<DonationPostModel, Donation>().ReverseMap();
-            CreateMap<GuaranteePostModel, Guarantee>().ReverseMap();
+            CreateMap<GuaranteePostModel, UserGuarantee>().ReverseMap();
+            CreateMap<DepositGuaranteePostModel, DepositGuarantee>().ReverseMap();
         }
     }
 }

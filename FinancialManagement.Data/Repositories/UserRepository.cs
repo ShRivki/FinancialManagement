@@ -28,8 +28,14 @@ namespace FinancialManagement.Data.Repositories
             //        .Include(l => l.Borrower)           // כולל את המשתמש המשויך להלוואה
             //        .ToListAsync();
             //  var list = await _context.Users.ToListAsync();
-            var list = await _context.Users.Include(x => x.Guarantees).Include(x => x.Donations).Include(x => x.Deposits).Include(u => u.Loans)          // כולל את כל הערביות השייכות להלוואה
-                        .ThenInclude(e => e.Guarantees).ThenInclude(p => p.Guarantor).ToListAsync();
+            var list = await _context.Users
+        .Include(x => x.Guarantees.Where(g => g.Loan.Status == true)) // סינון ערביות פעילות
+        .Include(x => x.Donations)
+        .Include(x => x.Deposits)
+        .Include(u => u.Loans)
+            .ThenInclude(e => e.Guarantees.Where(g => g.Loan.Status == true)) // סינון ערביות פעילות
+            .ThenInclude(p => p.Guarantor)
+        .ToListAsync();
             return list;
         }
 
@@ -42,6 +48,7 @@ namespace FinancialManagement.Data.Repositories
         public async Task<User> PostAsync(User value)
         {
             _context.Users.Add(value);
+
             await _context.SaveChangesAsync();
             return await _context.Users.FindAsync(value.Id);
         }
@@ -64,6 +71,17 @@ namespace FinancialManagement.Data.Repositories
                 await _context.SaveChangesAsync();
             }
             return user;
+        }
+        public async Task<User> PutReliabilityAsync(int id, bool reliability)
+        {
+            User user = await _context.Users.FindAsync(id);
+            if (user != null)
+            {
+                user.IsReliable = reliability;
+                await _context.SaveChangesAsync();
+            }
+            return user;
+
         }
         public async Task<User> DeleteAsync(int id)
         {

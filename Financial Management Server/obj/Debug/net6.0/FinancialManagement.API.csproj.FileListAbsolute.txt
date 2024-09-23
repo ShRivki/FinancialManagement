@@ -77,3 +77,8 @@ C:\Users\ASUS\Desktop\Financial Management Server\Financial Management Server\bi
 C:\Users\ASUS\Desktop\Financial Management Server\Financial Management Server\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\ASUS\Desktop\Financial Management Server\Financial Management Server\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
 C:\Users\ASUS\Desktop\Financial Management Server\Financial Management Server\obj\Debug\net6.0\Financia.6B85CB6D.Up2Date
+C:\Users\ASUS\Desktop\Financial Management Server\Financial Management Server\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\ASUS\Desktop\Financial Management Server\Financial Management Server\bin\Debug\net6.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\ASUS\Desktop\Financial Management Server\Financial Management Server\bin\Debug\net6.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\ASUS\Desktop\Financial Management Server\Financial Management Server\bin\Debug\net6.0\Microsoft.Extensions.Hosting.dll
+C:\Users\ASUS\Desktop\Financial Management Server\Financial Management Server\bin\Debug\net6.0\Newtonsoft.Json.dll

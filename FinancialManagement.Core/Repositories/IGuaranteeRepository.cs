@@ -9,14 +9,14 @@ namespace FinancialManagement.Core.Repositories
 {
     public interface IGuaranteeRepository
     {
-        public Task<IEnumerable<Guarantee>> GetAsync();
+        public Task<IEnumerable<UserGuarantee>> GetAsync();
 
-        public Task<Guarantee> GetAsync(int id);
+        public Task<UserGuarantee> GetAsync(int id);
 
-        public Task<Guarantee> PostAsync(Guarantee value);
+        public Task<UserGuarantee> PostAsync(UserGuarantee value);
 
-        public Task<Guarantee> PutAsync(int id, Guarantee value);
+        public Task<UserGuarantee> PutAsync(int id, UserGuarantee value);
 
-        public Task<Guarantee> DeleteAsync(int id);
+        public Task<UserGuarantee> DeleteAsync(int id);
     }
 }

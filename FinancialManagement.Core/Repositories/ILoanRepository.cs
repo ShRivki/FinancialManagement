@@ -11,12 +11,12 @@ namespace FinancialManagement.Core.Repositories
     {
         public Task<IEnumerable<Loan>> GetAsync();
 
+       // public Task<IEnumerable<Loan>> GetInactiveLoansAsync();
         public Task<Loan> GetAsync(int id);
-
         public Task<Loan> PostAsync(Loan value);
 
         public Task<Loan> PutAsync(int id, Loan value);
 
-        public Task<Loan> DeleteAsync(int id);
+        public Task<Loan> DeleteAsync(int id , double? repaymentAmount);
     }
 }

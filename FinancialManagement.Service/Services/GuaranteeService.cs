@@ -17,26 +17,26 @@ namespace FinancialManagement.Service.Services
             _GuaranteeRepository = GuaranteeRepository;
         }
 
-        public async Task<IEnumerable<Guarantee>> GetAllAsync()
+        public async Task<IEnumerable<UserGuarantee>> GetAllAsync()
         {
             return await _GuaranteeRepository.GetAsync();
         }
 
-        public async Task<Guarantee> GetGuaranteeByIdAsync(int id)
+        public async Task<UserGuarantee> GetGuaranteeByIdAsync(int id)
         {
             return await _GuaranteeRepository.GetAsync(id);
         }
 
-        public async Task<Guarantee> PostGuaranteeAsync(Guarantee value)
+        public async Task<UserGuarantee> PostGuaranteeAsync(UserGuarantee value)
         {
             return await _GuaranteeRepository.PostAsync(value);
         }
 
-        public async Task<Guarantee> PutGuaranteeAsync(int id, Guarantee value)
+        public async Task<UserGuarantee> PutGuaranteeAsync(int id, UserGuarantee value)
         {
             return await _GuaranteeRepository.PutAsync(id, value);
         }
-        public async Task<Guarantee> DeleteGuaranteeAsync(int id)
+        public async Task<UserGuarantee> DeleteGuaranteeAsync(int id)
         {
             return await _GuaranteeRepository.DeleteAsync(id);
         }

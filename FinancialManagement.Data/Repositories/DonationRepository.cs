@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using FinancialManagement.Core.Entities;
 using FinancialManagement.Core.Repositories;
+using FinancialManagement.Core.Services;
+using FinancialManagement.Service.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace FinancialManagement.Data.Repositories
@@ -12,10 +14,11 @@ namespace FinancialManagement.Data.Repositories
     public class DonationRepository : IDonationRepository
     {
         private readonly DataContext _context;
-
-        public DonationRepository(DataContext DC)
+        private readonly IGlobalVariablesService _GlobalVariablesService;
+        public DonationRepository(DataContext DC, IGlobalVariablesService globalVariablesService)
         {
             _context = DC;
+            _GlobalVariablesService = globalVariablesService;
         }
       
 
@@ -37,7 +40,7 @@ namespace FinancialManagement.Data.Repositories
             var globalVariables = await _context.GlobalVariables.FirstOrDefaultAsync();
             if (globalVariables != null)
             {
-                globalVariables.TotalFundBalance += value.Amount;
+                _GlobalVariablesService.PutAsync(+value.Amount, value.Currency);
             }
             await _context.SaveChangesAsync();
             return await _context.Donations.Include(d => d.Donor).FirstOrDefaultAsync(d => d.Id == value.Id);

@@ -13,6 +13,8 @@ namespace FinancialManagement.Service.Services
     public class GlobalVariablesService:IGlobalVariablesService
     {
         private readonly IGlobalVariablesRepository _globalVariablesRepository;
+        private readonly CurrencyService _CurrencyService;
+
         public GlobalVariablesService(IGlobalVariablesRepository globalVariablesRepository)
         {
             _globalVariablesRepository = globalVariablesRepository;
@@ -20,6 +22,10 @@ namespace FinancialManagement.Service.Services
         public async Task<IEnumerable<GlobalVariables>> GetAllAsync()
         {
             return await _globalVariablesRepository.GetAsync();
+        }
+        public async Task<IEnumerable<GlobalVariables>> PutAsync(double value, CurrencyType currencyType)
+        {
+            return await _globalVariablesRepository.PutAsync(value, currencyType);
         }
 
     }

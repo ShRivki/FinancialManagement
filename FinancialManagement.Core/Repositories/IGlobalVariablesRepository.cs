@@ -10,6 +10,7 @@ namespace FinancialManagement.Core.Repositories
     public interface IGlobalVariablesRepository
     {
         public  Task<IEnumerable<GlobalVariables>> GetAsync();
+        public Task<IEnumerable<GlobalVariables>> PutAsync(double amount, CurrencyType currencyType);
 
     }
 }

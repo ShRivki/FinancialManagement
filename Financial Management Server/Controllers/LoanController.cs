@@ -54,6 +54,7 @@ namespace FinancialManagement.Controllers
         {
 
             var loan = _mapper.Map<Loan>(value);
+            
             var res = await _LoanService.PostLoanAsync(loan);
             var resDto = _mapper.Map<LoanDto>(res);
             return res != null ? Ok(resDto) : NotFound(resDto);
@@ -73,9 +74,9 @@ namespace FinancialManagement.Controllers
 
         // DELETE api/<LoanController>/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult> Delete(int id)
+        public async Task<ActionResult> Delete(int id, double? repaymentAmount = null)
         {
-            var res = await _LoanService.DeleteLoanAsync(id);
+            var res = await _LoanService.DeleteLoanAsync(id, repaymentAmount);
             var resDto = _mapper.Map<LoanDto>(res);
             return res != null ? Ok(resDto) : NotFound(resDto);
         }

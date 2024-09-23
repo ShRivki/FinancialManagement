@@ -4,6 +4,7 @@ using FinancialManagement.Core.Repositories;
 using FinancialManagement.Core.Services;
 using FinancialManagement.Data;
 using FinancialManagement.Data.Repositories;
+using FinancialManagement.Service;
 using FinancialManagement.Service.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
@@ -28,8 +29,11 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddHostedService<ReminderService>();
 builder.Services.AddDbContext<DataContext>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddHttpClient<CurrencyService>();
+builder.Services.AddScoped<CurrencyService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IContributionService, DonationService>();
 builder.Services.AddScoped<IDonationRepository, DonationRepository>();
@@ -40,6 +44,7 @@ builder.Services.AddScoped<IDepositRepository, DepositRepository>();
 builder.Services.AddScoped<IGuaranteeService, GuaranteeService>();
 builder.Services.AddScoped<IGuaranteeRepository, GuaranteeRepository>(); 
 builder.Services.AddScoped<ILoanService, LoanService>();
+builder.Services.AddScoped<ICurrencyService,CurrencyService>();
 builder.Services.AddScoped<ILoanRepository, LoanRepository>();
 builder.Services.AddAutoMapper(typeof(ApiMappingProfile), typeof(CoreMappingProfile));
 builder.Services.AddAuthentication(options =>

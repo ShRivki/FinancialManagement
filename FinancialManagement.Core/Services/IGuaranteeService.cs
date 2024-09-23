@@ -9,18 +9,18 @@ namespace FinancialManagement.Core.Services
 {
     public interface IGuaranteeService
     {
-        public Task<IEnumerable<Guarantee>> GetAllAsync();
+        public Task<IEnumerable<UserGuarantee>> GetAllAsync();
 
 
-        public Task<Guarantee> GetGuaranteeByIdAsync(int id);
+        public Task<UserGuarantee> GetGuaranteeByIdAsync(int id);
 
 
-        public Task<Guarantee> PostGuaranteeAsync(Guarantee value);
+        public Task<UserGuarantee> PostGuaranteeAsync(UserGuarantee value);
 
 
-        public Task<Guarantee> PutGuaranteeAsync(int id, Guarantee value);
+        public Task<UserGuarantee> PutGuaranteeAsync(int id, UserGuarantee value);
 
 
-        public Task<Guarantee> DeleteGuaranteeAsync(int id);
+        public Task<UserGuarantee> DeleteGuaranteeAsync(int id);
     }
 }

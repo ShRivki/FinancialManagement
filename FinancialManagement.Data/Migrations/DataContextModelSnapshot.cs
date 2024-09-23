@@ -33,7 +33,13 @@ namespace FinancialManagement.Data.Migrations
                     b.Property<double>("Amount")
                         .HasColumnType("float");
 
-                    b.Property<DateTime>("DateOfMaturity")
+                    b.Property<double>("AmountRefunded")
+                        .HasColumnType("float");
+
+                    b.Property<int>("Currency")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("DateOfMaturity")
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime>("DepositDate")
@@ -49,11 +55,37 @@ namespace FinancialManagement.Data.Migrations
                     b.Property<bool>("Status")
                         .HasColumnType("bit");
 
+                    b.Property<int>("paymentMethods")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("DepositorId");
 
                     b.ToTable("Deposits");
+                });
+
+            modelBuilder.Entity("FinancialManagement.Core.Entities.DepositGuarantee", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("DepositId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("LoanId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DepositId");
+
+                    b.HasIndex("LoanId");
+
+                    b.ToTable("DepositGuarantee");
                 });
 
             modelBuilder.Entity("FinancialManagement.Core.Entities.Donation", b =>
@@ -67,7 +99,13 @@ namespace FinancialManagement.Data.Migrations
                     b.Property<double>("Amount")
                         .HasColumnType("float");
 
+                    b.Property<int>("Currency")
+                        .HasColumnType("int");
+
                     b.Property<int>("DonorId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Fundraiser")
                         .HasColumnType("int");
 
                     b.Property<string>("Notes")
@@ -95,35 +133,24 @@ namespace FinancialManagement.Data.Migrations
                     b.Property<double>("TotalFundBalance")
                         .HasColumnType("float");
 
+                    b.Property<double>("TotalFundBalanceEUR")
+                        .HasColumnType("float");
+
+                    b.Property<double>("TotalFundBalanceGBP")
+                        .HasColumnType("float");
+
+                    b.Property<double>("TotalFundBalanceILS")
+                        .HasColumnType("float");
+
+                    b.Property<double>("TotalFundBalanceUSD")
+                        .HasColumnType("float");
+
                     b.Property<double>("TotalLoansGranted")
                         .HasColumnType("float");
 
                     b.HasKey("Id");
 
                     b.ToTable("GlobalVariables");
-                });
-
-            modelBuilder.Entity("FinancialManagement.Core.Entities.Guarantee", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<int>("GuarantorId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("LoanId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("GuarantorId");
-
-                    b.HasIndex("LoanId");
-
-                    b.ToTable("Guarantees");
                 });
 
             modelBuilder.Entity("FinancialManagement.Core.Entities.Loan", b =>
@@ -140,6 +167,9 @@ namespace FinancialManagement.Data.Migrations
                     b.Property<int>("BorrowerId")
                         .HasColumnType("int");
 
+                    b.Property<int>("Currency")
+                        .HasColumnType("int");
+
                     b.Property<int>("CurrentPayment")
                         .HasColumnType("int");
 
@@ -148,6 +178,9 @@ namespace FinancialManagement.Data.Migrations
 
                     b.Property<DateTime>("LoanDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<double>("MonthlyRepayment")
+                        .HasColumnType("float");
 
                     b.Property<double>("RemainingAmount")
                         .HasColumnType("float");
@@ -159,6 +192,9 @@ namespace FinancialManagement.Data.Migrations
                         .HasColumnType("bit");
 
                     b.Property<int>("TotalPayments")
+                        .HasColumnType("int");
+
+                    b.Property<int>("paymentMethods")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -192,6 +228,9 @@ namespace FinancialManagement.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("IsReliable")
+                        .HasColumnType("bit");
+
                     b.Property<string>("LastName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -208,6 +247,29 @@ namespace FinancialManagement.Data.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("FinancialManagement.Core.Entities.UserGuarantee", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("GuarantorId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("LoanId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("GuarantorId");
+
+                    b.HasIndex("LoanId");
+
+                    b.ToTable("Guarantees");
+                });
+
             modelBuilder.Entity("FinancialManagement.Core.Entities.Deposit", b =>
                 {
                     b.HasOne("FinancialManagement.Core.Entities.User", "Depositor")
@@ -217,6 +279,25 @@ namespace FinancialManagement.Data.Migrations
                         .IsRequired();
 
                     b.Navigation("Depositor");
+                });
+
+            modelBuilder.Entity("FinancialManagement.Core.Entities.DepositGuarantee", b =>
+                {
+                    b.HasOne("FinancialManagement.Core.Entities.Deposit", "Deposit")
+                        .WithMany("DepositGuarantees")
+                        .HasForeignKey("DepositId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("FinancialManagement.Core.Entities.Loan", "Loan")
+                        .WithMany("DepositGuarantee")
+                        .HasForeignKey("LoanId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Deposit");
+
+                    b.Navigation("Loan");
                 });
 
             modelBuilder.Entity("FinancialManagement.Core.Entities.Donation", b =>
@@ -230,7 +311,18 @@ namespace FinancialManagement.Data.Migrations
                     b.Navigation("Donor");
                 });
 
-            modelBuilder.Entity("FinancialManagement.Core.Entities.Guarantee", b =>
+            modelBuilder.Entity("FinancialManagement.Core.Entities.Loan", b =>
+                {
+                    b.HasOne("FinancialManagement.Core.Entities.User", "Borrower")
+                        .WithMany("Loans")
+                        .HasForeignKey("BorrowerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Borrower");
+                });
+
+            modelBuilder.Entity("FinancialManagement.Core.Entities.UserGuarantee", b =>
                 {
                     b.HasOne("FinancialManagement.Core.Entities.User", "Guarantor")
                         .WithMany("Guarantees")
@@ -249,19 +341,15 @@ namespace FinancialManagement.Data.Migrations
                     b.Navigation("Loan");
                 });
 
-            modelBuilder.Entity("FinancialManagement.Core.Entities.Loan", b =>
+            modelBuilder.Entity("FinancialManagement.Core.Entities.Deposit", b =>
                 {
-                    b.HasOne("FinancialManagement.Core.Entities.User", "Borrower")
-                        .WithMany("Loans")
-                        .HasForeignKey("BorrowerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Borrower");
+                    b.Navigation("DepositGuarantees");
                 });
 
             modelBuilder.Entity("FinancialManagement.Core.Entities.Loan", b =>
                 {
+                    b.Navigation("DepositGuarantee");
+
                     b.Navigation("Guarantees");
                 });
 
